@@ -1,0 +1,11 @@
+{
+  "keywords": [
+    "AI",
+    "artificial intelligence",
+    "shared consumption",
+    "joint consumption"
+  ],
+  "slack_webhook_url": "curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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",
+  "fetch_days": 90,
+  "fetch_days_after": 14
+}
