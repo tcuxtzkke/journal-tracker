@@ -171,11 +171,12 @@ Abstract:
 
 # ==================== Slack通知 ====================
 
-def send_slack(webhook_url, new_papers, keyword_papers):
+def send_slack(webhook_url, new_papers, keyword_papers, report_url=""):
     if not webhook_url:
         return
     total = len(new_papers)
     kw_total = len(keyword_papers)
+    url_line = f"\n📊 <{report_url}|レポートを開く>" if report_url else ""
 
     # ヘッダーブロック
     blocks = [
@@ -186,7 +187,7 @@ def send_slack(webhook_url, new_papers, keyword_papers):
         {
             "type": "section",
             "text": {"type": "mrkdwn",
-                "text": f"*{datetime.now().strftime('%Y年%m月%d日')}* の新着: *{total}件*\nうちキーワードマッチ: *{kw_total}件*"}
+                "text": f"*{datetime.now().strftime('%Y年%m月%d日')}* の新着: *{total}件*\nうちキーワードマッチ: *{kw_total}件*{url_line}"}
         },
         {"type": "divider"}
     ]
@@ -445,7 +446,9 @@ def run():
     # Slack通知（新着があった時だけ）
     if slack_url and all_new:
         print("💬 Slack通知を送信中...")
-        send_slack(slack_url, all_new, kw_matched)
+        github_repo = os.environ.get("GITHUB_REPOSITORY", "")
+        report_url = f"https://github.com/{github_repo}/blob/main/output/report.html" if github_repo else ""
+        send_slack(slack_url, all_new, kw_matched, report_url)
     elif slack_url and not all_new:
         print("💬 新着なし → Slack通知スキップ")
 
