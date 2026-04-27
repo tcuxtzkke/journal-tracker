@@ -32,12 +32,15 @@ def load_config():
         # 古いconfigにキーが足りない場合はデフォルトで補完
         for k, v in DEFAULT_CONFIG.items():
             cfg.setdefault(k, v)
-        return cfg
     else:
         with open(CONFIG_PATH, "w", encoding="utf-8") as f:
             json.dump(DEFAULT_CONFIG, f, ensure_ascii=False, indent=2)
         print(f"📝 config.json を作成しました: {CONFIG_PATH}")
-        return DEFAULT_CONFIG
+        cfg = DEFAULT_CONFIG.copy()
+    # 環境変数があれば優先（GitHub Actions用）
+    if os.environ.get("SLACK_WEBHOOK_URL"):
+        cfg["slack_webhook_url"] = os.environ["SLACK_WEBHOOK_URL"]
+    return cfg
 
 # ==================== ジャーナル定義 ====================
 
