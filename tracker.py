@@ -447,7 +447,7 @@ def run():
     if slack_url and all_new:
         print("💬 Slack通知を送信中...")
         github_repo = os.environ.get("GITHUB_REPOSITORY", "")
-        report_url = f"https://htmlpreview.github.io/?https://raw.githubusercontent.com/{github_repo}/main/output/report.html" if github_repo else ""
+        report_url = f"https://htmlpreview.github.io/?https://github.com/{github_repo}/blob/main/output/report.html" if github_repo else ""
         send_slack(slack_url, all_new, kw_matched, report_url)
     elif slack_url and not all_new:
         print("💬 新着なし → Slack通知スキップ")
