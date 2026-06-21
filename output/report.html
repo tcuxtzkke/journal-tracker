@@ -44,21 +44,81 @@ main{max-width:960px;margin:24px auto;padding:0 20px}
   <h1>📚 Consumer Behavior Journal Tracker</h1>
   <p>消費者行動系ジャーナル 新着論文要約ダッシュボード</p>
   <div class="meta">
-    <span>📄 累計 162 件</span>
-    <span>🆕 今回 0 件</span>
-    <span>🔍 KWマッチ 130 件</span>
-    <span>🕐 2026年06月20日 23:46</span>
+    <span>📄 累計 165 件</span>
+    <span>🆕 今回 3 件</span>
+    <span>🔍 KWマッチ 132 件</span>
+    <span>🕐 2026年06月21日 23:01</span>
   </div>
 </header>
-<div class="tab-bar"><button class="tab active" onclick="switchTab('latest',this)">🆕 最新追加 <span class="cnt">0</span></button>
-<button class="tab" onclick="switchTab('keywords',this)" style="--tc:#d97706">🔍 キーワード <span class="cnt">130</span></button>
+<div class="tab-bar"><button class="tab active" onclick="switchTab('latest',this)">🆕 最新追加 <span class="cnt">3</span></button>
+<button class="tab" onclick="switchTab('keywords',this)" style="--tc:#d97706">🔍 キーワード <span class="cnt">132</span></button>
+<button class="tab" onclick="switchTab('JM',this)" style="--tc:#0F6E56">JM <span class="cnt">37</span></button>
+<button class="tab" onclick="switchTab('P&M',this)" style="--tc:#72243E">P&M <span class="cnt">80</span></button>
 <button class="tab" onclick="switchTab('JCP',this)" style="--tc:#854F0B">JCP <span class="cnt">12</span></button>
 <button class="tab" onclick="switchTab('JMR',this)" style="--tc:#993C1D">JMR <span class="cnt">22</span></button>
-<button class="tab" onclick="switchTab('JM',this)" style="--tc:#0F6E56">JM <span class="cnt">35</span></button>
 <button class="tab" onclick="switchTab('JCR',this)" style="--tc:#534AB7">JCR <span class="cnt">14</span></button>
-<button class="tab" onclick="switchTab('P&M',this)" style="--tc:#72243E">P&M <span class="cnt">79</span></button>
 </div>
-<main><div id="panel-latest" class="panel active"><div class="empty">今回の実行で追加された論文はありません</div></div><div id="panel-keywords" class="panel"><div class="kw-header">監視中のキーワード: <span class="kwbadge lg">AI</span><span class="kwbadge lg">artificial intelligence</span><span class="kwbadge lg">shared consumption</span><span class="kwbadge lg">joint consumption</span></div>
+<main><div id="panel-latest" class="panel active">
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><span class="jbadge" style="background:#0F6E56">JM</span><a href="https://doi.org/10.1177/00222429261464934" target="_blank" class="title">EXPRESS: How the #MeToo Movement Has Reshaped Gender Dynamics in the Marketplace: Evidence from the Entertainment Industry</a></div>
+        <span class="date">2026-06-19</span>
+      </div>
+      <div class="authors">Chi P. Tran, Nooshin L. Warren, Joshua T. Beck</div>
+      <div class="kwrow"><span class="kwbadge">AI</span><span class="kwbadge">artificial intelligence</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates how the #MeToo movement has influenced consumer responses to gender portrayals and content changes in the U.S. entertainment industry. Using AI-assisted content analysis of 1,523 top-grossing films from 2010-2023, supplemented with text analysis of over 334,000 crowdsourced movie keywords, the authors measured portrayals of sexual misconduct, female objectification, and gender role representations. The findings reveal that while audiences penalize films featuring behaviors targeted by #MeToo, there has been little meaningful short-run content change, and consumers maintain enduring preferences for traditional gender roles, resisting counter-stereotypical male portrayals while only selectively accepting counter-stereotypical female representations. This research contributes to understanding the complex and uneven marketplace effects of social movements on cultural industries.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、#MeToo運動が米国エンターテインメント産業における消費者のジェンダー描写への反応とコンテンツ変化にどのような影響を与えたかを検証した。2010年から2023年に公開された興行収入上位1,523本の映画をAI支援コンテンツ分析で調査し、33万件以上のクラウドソーシングによる映画キーワードのテキスト分析も実施した。分析の結果、観客は#MeTooが問題視する行為を描いた映画を敬遠する一方、短期的なコンテンツ変化はほとんど見られず、伝統的なジェンダー役割への選好が根強く、反ステレオタイプ的な男性描写には抵抗を示し、女性の反ステレオタイプ描写も選択的にしか受容していないことが明らかになった。本研究は、社会運動が市場行動に与える影響の複雑性と不均一性を示し、エンターテインメント企業やマーケター、社会運動の組織者への実務的示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><span class="jbadge" style="background:#0F6E56">JM</span><a href="https://doi.org/10.1177/00222429261465366" target="_blank" class="title">EXPRESS: Going Smaller with Precise Numbers: How Numerical Precision Orients Attention and Shifts Attribute Weighting in Consumer Judgments</a></div>
+        <span class="date">2026-06-19</span>
+      </div>
+      <div class="authors">Jorge Pena‐Marin, Mathew S. Isaac, Jennifer Seokhwa Hong</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how numerical precision in product attributes affects consumer decision-making when comparing options. Through nine studies including a field study with a real estate website, the authors demonstrate that when attribute values are displayed with more precise numbers (e.g., 12.34 vs. 12), consumers place greater weight on smaller-is-better attributes (e.g., energy usage) in their evaluations and choices. The underlying mechanism is that precise numbers orient consumers' attention toward smaller magnitudes, making the favorable values of smaller-is-better attributes more salient. This work contributes to research on attribute weighting and numerical cognition in judgment and decision making.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、製品属性における数値の精度が消費者の意思決定にどのような影響を与えるかを検討した。不動産ウェブサイトを用いたフィールド実験を含む9つの研究を通じて、属性値がより精密な数値（例：12.34 vs. 12）で表示されると、消費者は「小さいほど良い」属性（例：エネルギー使用量）をより重視することが示された。このメカニズムとして、精密な数値が消費者の注意をより小さな数値へと向けさせ、「小さいほど良い」属性の好ましい値がより顕著になることが明らかになった。本研究は、判断と意思決定における属性重み付けおよび数値認知の研究に貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><span class="jbadge" style="background:#72243E">P&M</span><a href="https://doi.org/10.1002/mar.70191" target="_blank" class="title">Circular for Me, Angular for Us: Shared Consumption Increases Consumers' Preference for Angular Products</a></div>
+        <span class="date">2026-06-19</span>
+      </div>
+      <div class="authors">L Wang, Jianmin Zeng</div>
+      <div class="kwrow"><span class="kwbadge">AI</span><span class="kwbadge">shared consumption</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how shared versus solo consumption contexts influence consumers' preferences for product shapes. Through ten experiments examining basic effects, mediation, and moderation, the authors found that shared consumption increases preference for square over round products, mediated by heightened divisibility needs. The effect disappears when the belief that squares are easier to divide is weakened, when products are non-rivalrous, or reverses when sharing is associated with reunion. These findings contribute to theories of consumption modes and sensory marketing while providing practical implications for product design and retail strategy.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、共有消費と単独消費の文脈が消費者の製品形状選好にどのような影響を与えるかを検討した。10の実験を通じて、共有消費状況では丸い製品よりも四角い製品への選好が高まることが示され、この効果は共有消費における分割可能性ニーズの高まりによって媒介されることが明らかになった。四角形の方が分割しやすいという信念が弱まった場合や、製品が非競合的である場合にはこの効果は消失し、共有が再会と強く結びつく場合には選好が逆転した。これらの知見は消費モードと感覚マーケティングの理論を拡張し、製品デザインや小売戦略への実践的示唆を提供する。</p></div>
+      </div>
+    </div></div><div id="panel-keywords" class="panel"><div class="kw-header">監視中のキーワード: <span class="kwbadge lg">AI</span><span class="kwbadge lg">artificial intelligence</span><span class="kwbadge lg">shared consumption</span><span class="kwbadge lg">joint consumption</span></div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><span class="jbadge" style="background:#0F6E56">JM</span><a href="https://doi.org/10.1177/00222429261464934" target="_blank" class="title">EXPRESS: How the #MeToo Movement Has Reshaped Gender Dynamics in the Marketplace: Evidence from the Entertainment Industry</a></div>
+        <span class="date">2026-06-19</span>
+      </div>
+      <div class="authors">Chi P. Tran, Nooshin L. Warren, Joshua T. Beck</div>
+      <div class="kwrow"><span class="kwbadge">AI</span><span class="kwbadge">artificial intelligence</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates how the #MeToo movement has influenced consumer responses to gender portrayals and content changes in the U.S. entertainment industry. Using AI-assisted content analysis of 1,523 top-grossing films from 2010-2023, supplemented with text analysis of over 334,000 crowdsourced movie keywords, the authors measured portrayals of sexual misconduct, female objectification, and gender role representations. The findings reveal that while audiences penalize films featuring behaviors targeted by #MeToo, there has been little meaningful short-run content change, and consumers maintain enduring preferences for traditional gender roles, resisting counter-stereotypical male portrayals while only selectively accepting counter-stereotypical female representations. This research contributes to understanding the complex and uneven marketplace effects of social movements on cultural industries.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、#MeToo運動が米国エンターテインメント産業における消費者のジェンダー描写への反応とコンテンツ変化にどのような影響を与えたかを検証した。2010年から2023年に公開された興行収入上位1,523本の映画をAI支援コンテンツ分析で調査し、33万件以上のクラウドソーシングによる映画キーワードのテキスト分析も実施した。分析の結果、観客は#MeTooが問題視する行為を描いた映画を敬遠する一方、短期的なコンテンツ変化はほとんど見られず、伝統的なジェンダー役割への選好が根強く、反ステレオタイプ的な男性描写には抵抗を示し、女性の反ステレオタイプ描写も選択的にしか受容していないことが明らかになった。本研究は、社会運動が市場行動に与える影響の複雑性と不均一性を示し、エンターテインメント企業やマーケター、社会運動の組織者への実務的示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><span class="jbadge" style="background:#72243E">P&M</span><a href="https://doi.org/10.1002/mar.70191" target="_blank" class="title">Circular for Me, Angular for Us: Shared Consumption Increases Consumers' Preference for Angular Products</a></div>
+        <span class="date">2026-06-19</span>
+      </div>
+      <div class="authors">L Wang, Jianmin Zeng</div>
+      <div class="kwrow"><span class="kwbadge">AI</span><span class="kwbadge">shared consumption</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how shared versus solo consumption contexts influence consumers' preferences for product shapes. Through ten experiments examining basic effects, mediation, and moderation, the authors found that shared consumption increases preference for square over round products, mediated by heightened divisibility needs. The effect disappears when the belief that squares are easier to divide is weakened, when products are non-rivalrous, or reverses when sharing is associated with reunion. These findings contribute to theories of consumption modes and sensory marketing while providing practical implications for product design and retail strategy.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、共有消費と単独消費の文脈が消費者の製品形状選好にどのような影響を与えるかを検討した。10の実験を通じて、共有消費状況では丸い製品よりも四角い製品への選好が高まることが示され、この効果は共有消費における分割可能性ニーズの高まりによって媒介されることが明らかになった。四角形の方が分割しやすいという信念が弱まった場合や、製品が非競合的である場合にはこの効果は消失し、共有が再会と強く結びつく場合には選好が逆転した。これらの知見は消費モードと感覚マーケティングの理論を拡張し、製品デザインや小売戦略への実践的示唆を提供する。</p></div>
+      </div>
+    </div>
     <div class="card kw-match">
       <div class="card-head">
         <div class="title-row"><span class="jbadge" style="background:#854F0B">JCP</span><a href="https://doi.org/10.1002/jcpy.70033" target="_blank" class="title">Three strategies for claiming research progress</a></div>
@@ -1618,415 +1678,31 @@ main{max-width:960px;margin:24px auto;padding:0 20px}
         <div class="block"><span class="tag">EN</span><p>This study investigates how influencers' endorsement rates—the proportion of sponsored posts to total posts—affect consumer engagement with sponsored content. Using a multimethod approach including two field studies and two controlled experiments across platforms like Instagram, Twitter, and Douyin, the research reveals a U-shaped relationship between endorsement rate and consumer engagement. This pattern emerges from two opposing forces: higher endorsement rates increase perceived brand recognition but also raise audience suspicion of manipulative intent. The findings contribute to influencer marketing literature by identifying organic product mentions and consistent brand endorsements as moderators, while providing marketers with a practical framework for influencer selection.</p></div>
         <div class="block"><span class="tag">JA</span><p>本研究は、インフルエンサーの「エンドースメント率」（総投稿数に占めるブランドスポンサー投稿の割合）が、スポンサー投稿への消費者エンゲージメントにどのような影響を与えるかを検証した。Instagram、Twitter、Douyinなど複数のプラットフォームを対象に、2つのフィールドスタディと2つの実験を含むマルチメソッドアプローチを用いた結果、エンドースメント率と消費者エンゲージメントの間にU字型の関係があることが明らかになった。この関係は、エンドースメント率の上昇がブランド認知度の向上をもたらす一方で、操作的意図への疑念も高めるという2つの相反する力の相互作用から生じている。さらに、オーガニックな商品言及や一貫したブランド推奨がこの影響を緩和することを示し、インフルエンサー選定における実践的な枠組みを提供している。</p></div>
       </div>
-    </div></div><div id="panel-JCP" class="panel"><div class="journal-title" style="border-left:4px solid #854F0B;padding-left:12px;margin-bottom:16px"><strong>Journal of Consumer Psychology</strong></div>
+    </div></div><div id="panel-JM" class="panel"><div class="journal-title" style="border-left:4px solid #0F6E56;padding-left:12px;margin-bottom:16px"><strong>Journal of Marketing</strong></div>
     <div class="card kw-match">
       <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70033" target="_blank" class="title">Three strategies for claiming research progress</a></div>
-        <span class="date">2026-06-18</span>
+        <div class="title-row"><a href="https://doi.org/10.1177/00222429261464934" target="_blank" class="title">EXPRESS: How the #MeToo Movement Has Reshaped Gender Dynamics in the Marketplace: Evidence from the Entertainment Industry</a></div>
+        <span class="date">2026-06-19</span>
       </div>
-      <div class="authors">David Gal, Bobby Calder, Brian Sternthal</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This paper addresses how consumer researchers can justify claims of research progress by identifying three distinct strategies: establishing-an-effect (demonstrating replicable X-Y relationships), theory-of-the-effect (specifying local mechanistic accounts), and theoretical framework (developing explanations transcending single effects). Through coding recent articles in leading consumer research journals, the authors find that the field overwhelmingly relies on the theory-of-the-effect strategy while rarely advancing theoretical frameworks. The paper clarifies the core logic, methodological emphases, and vulnerabilities of each strategy, and provides actionable guidance for progressing from theories of effects to broader frameworks. The contribution lies in arguing that deliberately combining these strategies provides a stronger foundation for claiming meaningful research progress.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論文は、消費者研究者が研究の進歩をどのような根拠で主張できるかという問いに対し、3つの戦略を提示している。具体的には、効果の確立（変数XとYの関係の再現性）、効果の理論（局所的なメカニズムの特定）、理論的フレームワーク（単一の効果を超えた説明）である。主要な消費者研究ジャーナルの最近の論文をコーディング分析した結果、当該分野は効果の理論戦略に圧倒的に依存しており、理論的フレームワークの構築はほとんど行われていないことが明らかになった。各戦略の論理・方法論的重点・脆弱性を明確化し、効果の理論からフレームワークへ発展させるための実践的指針を提供することで、3つの戦略を意図的に組み合わせることが研究進歩の主張をより強固にすると論じている。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70022" target="_blank" class="title">Gender identity, overconfidence, and risk attitudes</a></div>
-        <span class="date">2026-06-16</span>
-      </div>
-      <div class="authors">Edward R. Lawrence, Benedikt Wick</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates the relationship between gender identity, overconfidence, and investment risk-taking behaviors using a measure of overconfidence defined as the gap between perceived and actual financial knowledge. The empirical analysis reveals that nonbinary individuals exhibit significantly lower levels of financial overconfidence compared to those identifying as male or female, attributable to more modest self-assessment rather than differences in actual knowledge. The findings show that higher overconfidence correlates with greater willingness to take financial risks, and nonbinary individuals demonstrate considerably lower risk-taking inclination in investment decisions. This research contributes to the literature by extending the analysis of gender effects in financial decision-making beyond the traditional binary framework and ruling out mental health challenges and generic minority effects as explanations.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、ジェンダー・アイデンティティと過信、投資リスク行動の関係を、認識された金融知識と実際の金融知識の乖離を過信の指標として用いて検証した。実証分析の結果、ノンバイナリーの個人は男性・女性と自認する人々と比較して金融に関する過信が有意に低く、これは実際の知識の差ではなく、より控えめな自己評価に起因することが明らかになった。過信が高いほど金融リスクを取る意欲が高まり、ノンバイナリーの個人は投資判断においてリスクを取る傾向が著しく低いことが示された。本研究は、金融意思決定におけるジェンダー効果の分析を従来の二項対立的枠組みを超えて拡張し、メンタルヘルスの課題やマイノリティ効果では説明できないことを示した点で貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70032" target="_blank" class="title">The continuity heuristic: Temporal extrapolation in consumer judgment</a></div>
-        <span class="date">2026-06-14</span>
-      </div>
-      <div class="authors">Matthew Fisher, Adam H. Smiley</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how consumers predict the future longevity of products, brands, and services. Across 24 studies with 9,718 participants, the authors demonstrate the 'continuity heuristic'—a mental shortcut where consumers use past duration as a basis for forecasting future continuation. The effect persists across diverse domains including brand heritage, product obsolescence, subscriptions, and trends, even when quality is controlled and age is not explicitly mentioned. The authors propose a question-substitution mechanism and show the effect weakens for technology products (with clear lifespan norms) and expert consumers, contributing to temporal judgment psychology and offering marketers insights for predicting consumer preferences and perceived durability.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、消費者が製品・ブランド・サービスの将来的な持続期間をどのように予測するかを検討した。24の研究（N=9,718）を通じて、消費者が過去の存続期間を基に将来の継続を予測する「継続性ヒューリスティック」を実証した。この効果は、ブランドの伝統、製品の陳腐化、サブスクリプション継続、トレンド予測など多様な領域で確認され、品質を統制し年数を明示しない場合でも持続した。著者らは質問置換メカニズムを提唱し、明確な寿命規範がある技術製品や専門知識を持つ消費者では効果が弱まることを示し、時間的判断の心理学およびマーケティング実務への貢献を果たした。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70030" target="_blank" class="title">Authenticity as fact or feeling: A dual‐process framework of consumer authenticity judgments</a></div>
-        <span class="date">2026-05-25</span>
-      </div>
-      <div class="authors">R Kevin Smith, Katherine Du</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This paper addresses the question of how consumers form authenticity judgments, rather than focusing on what authenticity is. Through a systematic review of authenticity research integrated with dual-process theories, the authors propose a conceptual framework positioning authenticity judgments as proceeding through two routes: a fact-based route involving deliberate analytical evaluation and a feeling-based route relying on intuitive processing and emotional resonance. This framework explains existing paradoxes in authenticity research and generates novel predictions about authenticity cues, situational conditions activating each route, and downstream brand implications. The contribution lies in embedding authenticity judgments within established psychological theory to provide a more unified and predictive foundation for future research.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論文は、真正性（オーセンティシティ）とは何かではなく、消費者がいかにして真正性判断を形成するかという問いに取り組んでいる。真正性研究の体系的レビューと二重過程理論を統合し、真正性判断が2つの経路を通じて行われるという概念的枠組みを提案している。すなわち、意図的・分析的評価に基づく「事実ベース経路」と、直感的処理や感情的共鳴に基づく「感情ベース経路」である。この枠組みは真正性研究における既存のパラドックスを説明し、各経路で優先される手がかりや活性化条件、ブランドへの影響について新たな予測を生成する。確立された心理学理論に真正性判断を位置づけることで、より統一的で予測力のある研究基盤を提供している点が貢献である。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70028" target="_blank" class="title">Repentance‐driven fitness: Moral striving in a Tunisian context</a></div>
-        <span class="date">2026-05-22</span>
-      </div>
-      <div class="authors">Hela Zouaoui, Russell Belk, Vitor Lima</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study examines how Islamic moral-spiritual meaning systems shape fitness consumption motivations and sustain ongoing moral striving among Muslim gymgoers. Using 13 months of ethnography and 17 interviews in a Tunisian gym, the researchers found that participants interpret exercise through Tawba (Islamic repentance and return), where diet lapses, missed sessions, and bodily discomfort become part of a recurring cycle of renewed intention and moral self-correction. The study reveals that fitness effort gains legitimacy when perceived as sincere, modest, and restrained, while display-oriented practices like selfies and transformation narratives become morally suspect. This research extends goal-striving literature by demonstrating how religious meaning systems sustain persistence through repeated moral return rather than linear progress.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、イスラムの道徳的・精神的意味体系がフィットネス消費の動機をどのように形成し、継続的な道徳的努力を維持するかを検討している。チュニジアのジムで13ヶ月間の民族誌調査と17名へのインタビューを実施した結果、ムスリムのジム利用者は運動をタウバ（イスラムにおける悔悟と回帰の実践）を通じて解釈し、食事の乱れやトレーニングの欠席、身体的不快感を、意図の更新と道徳的自己修正の循環サイクルの一部として捉えていることが明らかになった。フィットネスの努力は誠実で謙虚かつ節度あるものとして認識された場合に正当性を獲得する一方、自撮りや身体変容の物語などの自己顕示的実践は道徳的に疑わしいものとなる。本研究は、宗教的意味体系が直線的な進歩ではなく繰り返される道徳的回帰を通じて持続性を維持することを示し、目標追求研究を拡張している。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70029" target="_blank" class="title">How storytelling modality affects transportation and storyteller persuasion</a></div>
-        <span class="date">2026-05-22</span>
-      </div>
-      <div class="authors">Anne Hamby, Rebecca Krause-Galoni, Adam Duhachek, Derek Rucker</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how communication modality (writing vs. speaking) affects storyteller self-persuasion, contrasting with prior audience-focused research. Through experimental studies, the authors find that storytellers are more transported and persuaded when writing rather than speaking their stories, which contradicts the pattern found for audiences. The key mechanism explaining this effect is structured thinking, which is facilitated more by writing than speaking. The study also reveals that story valence moderates this effect, with positive stories leading to more favorable evaluations and negative stories to less favorable ones, contributing new insights to narrative persuasion research.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、コミュニケーションの形態（書く vs. 話す）が語り手自身の自己説得にどのように影響するかを検討した。実験の結果、聴衆とは逆に、語り手は話すよりも書く方がより物語に没入し、説得されることが明らかになった。このメカニズムとして、書くことが構造化された思考を促進することが示された。さらに、物語の価値方向性（ポジティブ/ネガティブ）が調整変数として機能し、ポジティブな物語では好意的な評価が、ネガティブな物語では否定的な評価が強まることが判明した。本研究は、ナラティブ説得研究に新たな知見を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70027" target="_blank" class="title">Discount now or later? The effect of payment framing on consumer preferences for discount timing in periodic payments</a></div>
-        <span class="date">2026-05-13</span>
-      </div>
-      <div class="authors">Mijin Kwon, Song Oh Yoon</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how discount framing affects consumer preferences for the timing of discounts in subscription services. Through four main studies using online click-through behavior and experimental designs, the authors find that consumers prefer delayed discounts when the discount is expressed in the same unit as the recurring price (e.g., '$10, $10, $5'), because this identical framing creates a perception of a coherent improving sequence, leading to lower expectations of future prices. However, when discounts are framed differently (e.g., '50% off'), consumers revert to the standard preference for immediate discounts. This work contributes to pricing and temporal discounting literature by demonstrating that payment framing can reverse the typical preference for immediate benefits through sequence-continuation inferences.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、サブスクリプションサービスにおける割引のフレーミングが、消費者の割引タイミング選好にどう影響するかを検討した。4つの主要研究（オンラインクリック行動分析と実験）を通じて、割引が定期価格と同じ単位で表示される場合（例：「10ドル、10ドル、5ドル」）、消費者は遅延割引を好むことを発見した。これは同一フレーミングが支払いを一貫した改善系列として知覚させ、将来価格への期待を低下させるためである。一方、割引が異なる形式で提示される場合（例：「50%オフ」）、消費者は即時割引を好む標準的な選好に戻る。本研究は、支払いフレーミングが系列継続推論を通じて即時利益への選好を逆転させうることを示し、価格設定と時間割引の研究に貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70026" target="_blank" class="title">Effectively communicating uncertainty: The persuasive impact of different types of hedges</a></div>
-        <span class="date">2026-05-11</span>
-      </div>
-      <div class="authors">Demi Oba, Jonah Berger, Reihane Boghrati</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study examines how different types of hedging language (e.g., 'might,' 'probably,' 'I think') affect persuasion in consumer contexts. Using a multi-method approach combining experiments with machine learning analysis of millions of online reviews, the researchers found that hedges with personal perspective (vs. general) and those suggesting higher likelihood are more persuasive. The underlying mechanism is perceived confidence—personal and high-likelihood hedges signal greater communicator confidence, enhancing persuasion. The research contributes to marketing language literature by showing that hedging can protect communicators from backlash while maintaining persuasive impact, and that brands can leverage these effects through anthropomorphized agents.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、ヘッジ表現（「かもしれない」「おそらく」「私は思う」など）の種類が消費者文脈における説得効果にどのように影響するかを検討した。実験と数百万件のオンラインレビューの機械学習分析を組み合わせた多手法アプローチにより、個人的視点のヘッジ（一般的視点と比較して）および高い可能性を示唆するヘッジがより説得力を持つことが明らかになった。その背後にあるメカニズムは「知覚された自信」であり、個人的視点や高可能性のヘッジは発信者の自信を示唆し、説得力を高める。本研究はヘッジ表現が反発を防ぎつつ説得効果を維持できること、また擬人化されたエージェントを通じてブランドがこの効果を活用できることを示し、マーケティングにおける言語研究に貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70025" target="_blank" class="title">Human– <scp>AI</scp> partnerships: Living and working with <scp>AI</scp> Assistants, <scp>AI</scp> Agents, and <scp>AI</scp> Companions</a></div>
-        <span class="date">2026-04-16</span>
-      </div>
-      <div class="authors">Ripinka Koli Patil, Dan Hamilton Rice, Chris Janiszewski</div>
+      <div class="authors">Chi P. Tran, Nooshin L. Warren, Joshua T. Beck</div>
       <div class="kwrow"><span class="kwbadge">AI</span><span class="kwbadge">artificial intelligence</span></div>
       <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This conceptual paper examines how consumers interact with and form relationships with interactive AI technologies, proposing that increased AI functionality will shift consumer perceptions from viewing AI as static tools to long-term partners. The authors develop a theoretical taxonomy classifying human-AI partnerships into three categories: AI Assistants, AI Agents, and AI Companions, each with distinct profiles and relationship dynamics. The key insight is that future AI usage will be shaped not only by technological advancement but also by consumer responses to repeated AI interactions over time. This framework contributes to marketing and consumer psychology by providing a foundation for understanding the evolution of human-AI relationships and offering an extensive agenda for future research.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論文は、消費者がインタラクティブAI技術とどのように関わり、関係を形成するかを概念的に検討し、AI機能の向上により消費者がAIを単なる静的ツールではなく長期的なパートナーとして認識するようになると提唱している。著者らは、人間とAIのパートナーシップを「AIアシスタント」「AIエージェント」「AIコンパニオン」の3類型に分類する理論的タクソノミーを開発し、それぞれの特徴と関係性のダイナミクスを明らかにした。主要な知見として、将来のAI利用は技術の進歩だけでなく、消費者とAIとの繰り返しのインタラクションへの反応によっても形成されることを示している。本研究は、人間とAIの関係性の進化を理解するための枠組みを提供し、今後の研究課題を広範に提示することで、マーケティングおよび消費者心理学に貢献している。</p></div>
+        <div class="block"><span class="tag">EN</span><p>This study investigates how the #MeToo movement has influenced consumer responses to gender portrayals and content changes in the U.S. entertainment industry. Using AI-assisted content analysis of 1,523 top-grossing films from 2010-2023, supplemented with text analysis of over 334,000 crowdsourced movie keywords, the authors measured portrayals of sexual misconduct, female objectification, and gender role representations. The findings reveal that while audiences penalize films featuring behaviors targeted by #MeToo, there has been little meaningful short-run content change, and consumers maintain enduring preferences for traditional gender roles, resisting counter-stereotypical male portrayals while only selectively accepting counter-stereotypical female representations. This research contributes to understanding the complex and uneven marketplace effects of social movements on cultural industries.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、#MeToo運動が米国エンターテインメント産業における消費者のジェンダー描写への反応とコンテンツ変化にどのような影響を与えたかを検証した。2010年から2023年に公開された興行収入上位1,523本の映画をAI支援コンテンツ分析で調査し、33万件以上のクラウドソーシングによる映画キーワードのテキスト分析も実施した。分析の結果、観客は#MeTooが問題視する行為を描いた映画を敬遠する一方、短期的なコンテンツ変化はほとんど見られず、伝統的なジェンダー役割への選好が根強く、反ステレオタイプ的な男性描写には抵抗を示し、女性の反ステレオタイプ描写も選択的にしか受容していないことが明らかになった。本研究は、社会運動が市場行動に与える影響の複雑性と不均一性を示し、エンターテインメント企業やマーケター、社会運動の組織者への実務的示唆を提供している。</p></div>
       </div>
     </div>
     <div class="card ">
       <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70021" target="_blank" class="title">Stratified consumer activism: How socioeconomic status shapes boycott participation</a></div>
-        <span class="date">2026-03-13</span>
+        <div class="title-row"><a href="https://doi.org/10.1177/00222429261465366" target="_blank" class="title">EXPRESS: Going Smaller with Precise Numbers: How Numerical Precision Orients Attention and Shifts Attribute Weighting in Consumer Judgments</a></div>
+        <span class="date">2026-06-19</span>
       </div>
-      <div class="authors">Yan Vieites, Daniel Fernandes, Debora V. Thompson</div>
+      <div class="authors">Jorge Pena‐Marin, Mathew S. Isaac, Jennifer Seokhwa Hong</div>
       
       <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates whether socioeconomic status (SES) influences consumer boycott participation and explores the underlying psychological mechanisms. Using four studies combining cross-national surveys, experiments, and lab-in-the-field methods, the authors measured boycotting through self-reported intentions, past actions, and actual behaviors. The key finding reveals that low-SES consumers are less likely to participate in boycotts than high-SES consumers, a disparity driven by their reduced sense of control and lower beliefs that consumption can effectively bring about change. This research contributes to understanding stratified consumer activism and illuminates how socioeconomic conditions shape political consumption behaviors.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、社会経済的地位（SES）が消費者のボイコット参加に影響を与えるかどうか、またその心理的メカニズムを検討した。国際調査、実験、フィールド実験を含む4つの研究を通じて、自己報告による意図、過去の行動、実際の行動からボイコット参加を測定した。主要な発見として、低SES消費者は高SES消費者と比較してボイコットに参加する可能性が低く、これは統制感の低さと、消費が変化をもたらす有効な手段であるという信念の弱さによって説明されることが明らかになった。本研究は、消費者アクティビズムの階層化を理解し、社会経済的条件と消費者行動の複雑な関係に新たな知見を提供する。</p></div>
+        <div class="block"><span class="tag">EN</span><p>This research investigates how numerical precision in product attributes affects consumer decision-making when comparing options. Through nine studies including a field study with a real estate website, the authors demonstrate that when attribute values are displayed with more precise numbers (e.g., 12.34 vs. 12), consumers place greater weight on smaller-is-better attributes (e.g., energy usage) in their evaluations and choices. The underlying mechanism is that precise numbers orient consumers' attention toward smaller magnitudes, making the favorable values of smaller-is-better attributes more salient. This work contributes to research on attribute weighting and numerical cognition in judgment and decision making.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、製品属性における数値の精度が消費者の意思決定にどのような影響を与えるかを検討した。不動産ウェブサイトを用いたフィールド実験を含む9つの研究を通じて、属性値がより精密な数値（例：12.34 vs. 12）で表示されると、消費者は「小さいほど良い」属性（例：エネルギー使用量）をより重視することが示された。このメカニズムとして、精密な数値が消費者の注意をより小さな数値へと向けさせ、「小さいほど良い」属性の好ましい値がより顕著になることが明らかになった。本研究は、判断と意思決定における属性重み付けおよび数値認知の研究に貢献している。</p></div>
       </div>
     </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70020" target="_blank" class="title">The politics of impact: How political ideology shapes perceptions of the environmental impact of individual actions</a></div>
-        <span class="date">2026-02-14</span>
-      </div>
-      <div class="authors">Aylin Cakanlar, Katherine White, Remi Trudel</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how political ideology shapes perceptions of the environmental impact of individual sustainable actions. Through seven studies, the authors find that conservatives perceive their sustainable behaviors as having less positive environmental impact than liberals do, which explains their lower engagement in such behaviors. This effect stems not only from climate change beliefs but also from the lower observed prevalence of sustainable behaviors within conservatives' in-groups. The research demonstrates that framing sustainable actions in health-related terms, emphasizing in-group prevalence, or explicitly communicating impact can increase conservatives' perceived impact and willingness to engage in sustainable behaviors, offering practical strategies for promoting sustainability across the political spectrum.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、政治的イデオロギーが個人の持続可能な行動の環境影響に対する認知にどのように影響するかを検討している。7つの研究を通じて、保守派はリベラル派と比較して自身の持続可能な行動の環境へのポジティブな影響をより低く認知し、これが持続可能な行動への関与の低さを予測することが明らかになった。この効果は気候変動に関する信念だけでなく、保守派の内集団における持続可能な行動の観察された普及率の低さにも起因している。持続可能な行動を健康関連の文脈で提示すること、内集団での普及を強調すること、または影響を明示的に伝えることで、保守派の影響認知と行動意図が向上することが示され、政治的立場を超えた持続可能な行動促進の実践的方策が提示された。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70016" target="_blank" class="title">From decision patience to process patience: A decision–process integration of the choice to wait and the experience of waiting</a></div>
-        <span class="date">2026-01-28</span>
-      </div>
-      <div class="authors">Selin A. Malkoc</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This commentary addresses the gap between two conceptualizations of consumer impatience: decision patience (choosing to wait for delayed rewards in intertemporal choice) and process patience (the emotional experience during waiting). Through theoretical integration, the author maps psychological drivers of intertemporal choice—including affective urges, cognitive representations, construal, subjective time perception, and future-self connectedness—onto Sweeny's Process Model of Patience. The key contribution is demonstrating where these two perspectives converge and diverge, proposing testable predictions about how choice patience and process patience can dissociate and how environmental cues may reduce uncertainty at the decision point while increasing impatience during the wait. This integration offers a more complete temporal model of impatience spanning from pre-decision through the entire waiting period.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論評は、消費者の忍耐に関する2つの概念化—異時点間選択における「待つことを選ぶ」意思決定忍耐と、待機中の感情体験である過程忍耐—の間のギャップに取り組んでいる。著者は理論的統合を通じて、異時点間選択の心理的要因（感情的衝動、認知的表象、解釈レベル、主観的時間知覚、将来の自己との連結性）をSweeneyの忍耐の過程モデルにマッピングした。主要な貢献は、両視点の収束点と乖離点を明らかにし、選択忍耐と過程忍耐がいかに解離しうるか、また環境的手がかりが意思決定時の不確実性を低減しつつ待機中の焦りを高めうるかについて検証可能な予測を提示した点である。この統合により、意思決定前から待機期間全体を包括するより完全な忍耐の時間モデルが提唱された。</p></div>
-      </div>
-    </div></div><div id="panel-JMR" class="panel"><div class="journal-title" style="border-left:4px solid #993C1D;padding-left:12px;margin-bottom:16px"><strong>Journal of Marketing Research</strong></div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261463518" target="_blank" class="title">EXPRESS: Consumer Interactions and Peer Effects in Socially-Connected Digital Products</a></div>
-        <span class="date">2026-06-16</span>
-      </div>
-      <div class="authors">Yijun Chen, Yulia Nevskaya</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This paper investigates peer effects in user churn on a socially-connected digital platform and examines how firms can leverage network structures for customer relationship management. Using data from a massively-multiplayer online game, the authors develop a two-stage structural model that captures endogenous network formation and peer effects in churn, correcting for endogeneity bias through unobserved gamer heterogeneity. Key findings reveal that peer effects substantially amplify intervention effectiveness with an average social multiplier of 2.48, and that users vary more in their influence on peers' retention than in their own retention likelihood. The study contributes to CRM literature by demonstrating that a user's network value is primarily driven by network centrality measures rather than individual characteristics, offering actionable insights for targeted retention strategies.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論文は、ソーシャル機能を持つデジタルプラットフォームにおけるユーザー離脱のピア効果を調査し、企業がネットワーク構造を顧客関係管理（CRM）に活用する方法を検討している。大規模マルチプレイヤーオンラインゲームのデータを用い、内生的なネットワーク形成とピア効果を捉える2段階構造モデルを構築し、観測されないゲーマーの異質性を通じて内生性バイアスを補正した。主要な発見として、ピア効果が介入効果を大幅に増幅させ（平均ソーシャル乗数2.48）、ユーザーは自身の継続可能性よりも他者の継続に与える影響において大きな差異があることが示された。本研究は、ユーザーのネットワーク価値が個人特性よりもネットワーク中心性指標によって主に決定されることを明らかにし、CRM分野に新たな知見を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261460880" target="_blank" class="title">EXPRESS: The Three-dimensional Effect in Logo Design: When Depth Cues Improve Brand Purchase Likelihood</a></div>
-        <span class="date">2026-06-05</span>
-      </div>
-      <div class="authors">Taku Togawa, Naoto Onzo</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how three-dimensional (3D) logo design affects consumer purchase likelihood compared to two-dimensional (2D) logos. Through multiple field, lab, and online studies, the authors find that 3D logos increase brand purchase likelihood because depth cues evoke mental representations of tangible forms, enhancing perceived logo realism and brand trust. However, these benefits are conditional: 3D logos are more effective in visually simple environments and for concrete offerings with high tangible dominance, while providing little advantage in complex environments or for abstract offerings. This study contributes to logo design literature by offering a nuanced theoretical framework for understanding when depth cues improve consumer responses and providing practical guidance for 3D logo adoption decisions.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、3次元（3D）ロゴデザインが2次元（2D）ロゴと比較して消費者の購買意向にどのような影響を与えるかを検討している。フィールド調査、実験室実験、オンライン調査を通じて、3Dロゴは奥行き手がかりが有形物の心的表象を喚起し、ロゴのリアリズム知覚とブランド信頼を高めることで購買意向を向上させることを明らかにした。ただし、この効果は条件付きであり、視覚的にシンプルな環境や有形性の高い具体的な製品・サービスにおいて3Dロゴの効果が発揮される一方、複雑な環境や抽象的な提供物では優位性が見られなかった。本研究は、奥行き手がかりが消費者反応を改善する条件を特定することで、ロゴの3次元性に関する精緻な理論的枠組みと実務的指針を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261458290" target="_blank" class="title">EXPRESS: Modeling Dynamic Consumer Preferences from Few-shot Data: A Meta-Learning Approach</a></div>
-        <span class="date">2026-06-03</span>
-      </div>
-      <div class="authors">Mingzhang Yin, Khaled Boughanmi, Anirban Mukherjee</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This paper addresses the challenge of capturing and adapting to customer preferences when individual-level interaction data is limited, such as with new customers or short sessions. The authors propose Meta-Temporal Processes (MetaTP), a meta-learning framework that combines Transformer-based architecture to model sequential consumption patterns and enables personalization from few observations by transferring learned structure across customers. Empirical results on digital product consumption demonstrate that MetaTP outperforms benchmark methods in few-shot prediction tasks and reveals interpretable patterns of preference evolution. The contribution lies in providing firms with a scalable approach to optimize personalized recommendations during the 'lukewarm' customer journey stage, including product sequencing and session completion strategies.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論文は、新規顧客や短期セッションなど個人レベルのデータが限られた状況で、顧客の嗜好を迅速に把握・適応するという課題に取り組んでいる。著者らは、Transformerベースのアーキテクチャを統合したメタ学習フレームワーク「Meta-Temporal Processes（MetaTP）」を提案し、少数の観測データから顧客間で共有構造を転移させることでスケーラブルなパーソナライゼーションを実現している。デジタル製品の逐次消費データを用いた実証分析では、MetaTPが少数ショット予測において既存手法を上回る性能を示し、嗜好変化の解釈可能なパターンを明らかにした。本研究の貢献は、顧客ジャーニーの「ぬるま湯段階」において、製品の推薦順序やセッション完了戦略を含むパーソナライズされたレコメンデーションの最適化手法を企業に提供した点にある。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261457045" target="_blank" class="title">EXPRESS: Haunted by a Bad Review: The Afterlife of Reading (Negative) Reviews in Consumer Experience</a></div>
-        <span class="date">2026-05-26</span>
-      </div>
-      <div class="authors">Dena Yadin, Nira Munichor, Elanor F. Williams, Inbal Stockheim</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates whether product reviews affect not only purchase decisions but also the actual consumption experience itself. Across five studies using real consumer-generated reviews and product interactions, the authors found an asymmetrical assimilation effect: exposure to negative reviews before consumption leads to more negative product experiences, while positive reviews do not significantly enhance the experience. This effect occurs because negative reviews increase the salience of negative product attributes during consumption, though forewarning consumers or prompting independent opinion formation can mitigate it. The findings extend our understanding of review influence beyond the point of purchase and offer practical implications for marketers managing consumer experiences.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、製品レビューが購買決定だけでなく、実際の消費体験にも影響を与えるかどうかを検証した。実際の消費者レビューと製品体験を用いた5つの研究を通じて、非対称的な同化効果が確認された：消費前にネガティブなレビューを読むと製品体験がよりネガティブになる一方、ポジティブなレビューは消費体験に有意な影響を与えなかった。この効果は、ネガティブなレビューが消費中に製品のネガティブな属性の顕著性を高めることで生じるが、事前警告や独自の意見形成を促すことで軽減可能である。本研究は、レビューの影響が購買時点を超えて及ぶことを示し、マーケターにとって重要な実務的示唆を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261457044" target="_blank" class="title">EXPRESS: Do fMRI Data Improve Predictions of Product Adoption by Store Managers and Sales per Store of Consumer Packaged Goods?</a></div>
-        <span class="date">2026-05-26</span>
-      </div>
-      <div class="authors">Paulo Albuquerque, Anita Tusche, Márton Varga, Nadine R. Gier-Reinartz, Bernd Weber, et al.</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates whether fMRI data can improve predictions of store manager adoption decisions and consumer sales of consumer packaged goods beyond traditional market and survey data. Using data from a large retail chain combined with survey responses and fMRI signals, the authors applied decision tree and LASSO regression methods to evaluate predictive accuracy. The key finding is that fMRI data significantly enhance sales forecasts, especially for innovative products, while survey-based measures are more effective for predicting store manager adoption. The research contributes a framework for evaluating the economic return on investment of neuroforecasting tools, offering practical guidance for product launch strategies and data investment decisions.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、fMRIデータが従来の市場データや調査データを超えて、小売店マネージャーの採用決定および消費財の消費者売上予測を改善できるかを検証した。大規模小売チェーンのデータに調査回答とfMRI信号を組み合わせ、決定木およびLASSOによる予測分析を実施した。主要な発見として、fMRIデータは特に革新的な製品の売上予測精度を向上させる一方、調査データは店舗マネージャーの採用予測により有効であることが示された。本研究は、ニューロ予測ツールの投資対効果を評価するフレームワークを提示し、製品発売戦略やデータ投資の意思決定に実践的な示唆を与える点で貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261455302" target="_blank" class="title">EXPRESS: Where Should Firms Implement Differential Privacy in Targeting? Implications for Profitability</a></div>
-        <span class="date">2026-05-18</span>
-      </div>
-      <div class="authors">Gilian R. Ponte, Tom Boot, Thomas Reutterer, Jaap E. Wieringa</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates where firms should implement differential privacy within their targeting workflow to balance privacy protection and profitability. Using a large-scale field experiment with 747,975 customers and simulations, the authors compare two novel targeting strategies: implementing differential privacy during model training versus at the targeting-decision stage. The key finding reveals that the decision-stage implementation yields approximately fivefold higher profits than the training-stage approach while maintaining strong privacy protection. The research contributes by deriving expected profit formulas for given privacy risk levels and introducing a privacy elasticity measure, providing practical guidelines for firms and policymakers on privacy-preserving targeting.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、企業がターゲティングワークフローのどの段階で差分プライバシーを実装すべきかを、収益性とプライバシー保護の両立の観点から検討している。747,975人の顧客を対象とした大規模フィールド実験とシミュレーションを用いて、モデル訓練段階での実装とターゲティング意思決定段階での実装という2つの新規戦略を比較した。主要な発見として、意思決定段階での実装は訓練段階での実装と比較して約5倍の利益を生み出しつつ、強力なプライバシー保護を維持できることが示された。本研究は、特定のプライバシーリスク水準に対する期待利益の導出およびターゲティング利益のプライバシー弾力性の提示により、企業と政策立案者に実践的な指針を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261452611" target="_blank" class="title">EXPRESS: Ad Intensity Policies and Content Provision on Revenue-Sharing Content Platforms</a></div>
-        <span class="date">2026-05-11</span>
-      </div>
-      <div class="authors">Yuansheng Wei, Lin Tian, Baojun Jiang</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates how online content platforms should design ad intensity policies to optimize creator incentives, content quality, and platform profitability. Using an analytical model with one platform and two competing content creators, the authors compare three policies: differentiated advertising (DA), uniform advertising (UA), and creator-set advertising (CA). Under symmetric creators and quality-independent marginal ad revenue, UA outperforms DA by intensifying quality competition, leading to higher content quality and platform profit, while CA weakens content investment incentives. The study contributes by demonstrating that no single ad intensity policy is universally optimal, as relaxing benchmark assumptions such as creator asymmetry can reverse UA's advantage.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、オンラインコンテンツプラットフォームが広告強度ポリシーをどのように設計すべきかを、クリエイターのインセンティブ、コンテンツ品質、プラットフォーム収益性の観点から検討している。1つのプラットフォームと2人の競合するコンテンツクリエイターを含む分析モデルを用いて、差別化広告（DA）、均一広告（UA）、クリエイター設定広告（CA）の3つのポリシーを比較分析した。対称的なクリエイターと品質非依存の限界広告収益を仮定した場合、UAは品質競争を激化させ、DAよりも高いコンテンツ品質とプラットフォーム利益をもたらす一方、CAはコンテンツ投資インセンティブを弱める。クリエイターの非対称性などの仮定を緩和するとUAの優位性が逆転しうることを示し、単一の広告強度ポリシーが普遍的に最適ではないことを明らかにした点が本研究の貢献である。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261450925" target="_blank" class="title">EXPRESS: Picture This: How Review Valence Shapes the Quality and Helpfulness of User-Generated Photos</a></div>
-        <span class="date">2026-05-04</span>
-      </div>
-      <div class="authors">Jiani Xue, Shiri Melumad</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This paper investigates how review valence (positive vs. negative) influences the quality of user-generated photos in online reviews. Through six studies combining controlled experiments, laboratory observations (N = 4,218), and field analyses of Amazon and Yelp reviews (N = 669,937), the authors demonstrate that reviewers invest more creative effort when photographing products or services they feel positively about, resulting in higher-quality images. These higher-quality photos are perceived as more helpful by observers because they are easier to process visually and generate greater trust in the reviewer. The findings contribute to understanding how visual content is produced and evaluated in online marketplaces by identifying review valence as a key driver of creative effort in user-generated photography.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、オンラインレビューにおけるレビューの感情価（ポジティブ vs. ネガティブ）がユーザー生成写真の品質にどのように影響するかを検討した。統制実験、実験室観察研究（N = 4,218）、およびAmazonとYelpのレビューのフィールド分析（N = 669,937）を含む6つの研究を通じて、レビュアーはポジティブに感じる製品やサービスを撮影する際により多くの創造的努力を投入し、その結果としてより高品質な写真が生成されることを実証した。これらの高品質な写真は、視覚的に処理しやすく、レビュアーへの信頼を高めるため、閲覧者にとってより有用と知覚される。本研究は、レビューの感情価がユーザー生成写真における創造的努力の駆動要因であることを特定し、オンラインマーケットプレイスにおけるビジュアルコンテンツの生成と評価に関する知見を進展させた。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261446905" target="_blank" class="title">EXPRESS: A More Creative World Is a More Sustainable One: How to Increase Length of Product Usage through Creativity and Emotional Attachment</a></div>
-        <span class="date">2026-04-17</span>
-      </div>
-      <div class="authors">Ludovica Cesareo, Cesare Amatulli, Alessandro M. Peluso, Matteo De Angelis</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates whether product creativity (defined as high novelty and adequate appropriateness) can increase length of product usage (LPU), thereby promoting sustainable consumption. Through seven pre-registered studies using various products, populations, and creativity manipulations, the authors demonstrate that higher product creativity leads to longer intended product usage by strengthening consumers' emotional attachment to products. The effect is particularly pronounced for non-owners compared to owners, and for mass-market products compared to luxury products. This work contributes to sustainability literature by highlighting intangible product characteristics as antecedents of product durability, offering practical implications for companies seeking to reduce overconsumption.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、製品の創造性（高い新規性と適切な妥当性）が製品使用期間（LPU）を延長し、持続可能な消費を促進できるかを検証した。異なる製品、母集団、創造性操作を用いた7つの事前登録研究を通じて、製品の創造性が高いほど消費者の感情的愛着が強まり、結果として製品使用期間が延長されることを実証した。この効果は、所有者よりも非所有者において、また高級品よりも大衆向け製品においてより顕著であった。本研究は、製品耐久性の先行要因として無形の製品特性を強調することで、持続可能性研究に貢献し、過剰消費削減を目指す企業への実践的示唆を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261445841" target="_blank" class="title">EXPRESS: Separating the Artist from the Art: Social Media Boycotts, Platform Sanctions, and Music Consumption</a></div>
-        <span class="date">2026-04-13</span>
-      </div>
-      <div class="authors">Daniel Winkler, Nils Wlömert, Jūra Liaukonytė</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This paper examines how consumer demand for an artist's music changes when social media campaigns call for boycotts following misconduct. Using R. Kelly's case and an identification strategy that leverages variation in song-removal status and geographic demand, the authors distinguish between supply-side (platform visibility) and demand-side (intentional boycott) effects. The key finding reveals that decreased music consumption is primarily driven by reduced platform visibility through playlist removal rather than intentional consumer boycotts, and media coverage actually has promotional effects on demand. Additional analysis of Morgan Wallen, Rammstein, and Diddy cases reinforces that scandals may inadvertently increase music demand when platforms do not impose sanctions.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論文は、アーティストの不祥事に対してソーシャルメディア上でボイコットが呼びかけられた際、音楽消費がどのように変化するかを検証している。R・ケリーの事例を用い、楽曲のプレイリスト削除状況と地域別需要の差異を活用した識別戦略により、プラットフォームの可視性低下（供給側要因）と消費者の意図的なボイコット（需要側要因）の相対的影響を分離した。主要な発見として、音楽消費の減少は消費者の意図的なボイコットではなく、プレイリスト削除によるプラットフォーム可視性の低下が主因であり、メディア報道やボイコットの呼びかけはむしろ需要を促進する効果を持つことが明らかになった。モーガン・ウォーレン、ラムシュタイン、ディディの事例分析でも、プラットフォーム制裁がない場合はスキャンダルが需要に悪影響を与えないことが確認された。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261444259" target="_blank" class="title">EXPRESS: Does Puffery Sell? Evidence from Airbnb</a></div>
-        <span class="date">2026-04-08</span>
-      </div>
-      <div class="authors">Michael Thomas</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates whether puffery (positive but vague quality claims) influences consumer behavior on Airbnb. Using a hazard model that exploits within-listing changes to hosts' property descriptions, the research finds that adding a single puffed claim increases bookings by approximately 0.7 days per year, with minimal negative impact on ratings or review sentiment (less than 0.03 standard deviations). The findings challenge the legal assumption that consumers adequately discount puffed claims while supporting continued legal protection since puffery does not reduce consumer satisfaction. This research contributes to marketing and consumer protection literature by providing causal evidence on puffery's effectiveness in a real marketplace setting.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、Airbnbにおいて「パファリー」（肯定的だが曖昧な品質主張）が消費者行動に影響を与えるかを検証した。物件説明文の変更を利用したハザードモデル分析の結果、パファリーを1つ追加すると予約が年間約0.7日増加する一方、評価やレビュー感情への悪影響は0.03標準偏差以下と限定的であることが判明した。これらの知見は、消費者がパファリーを十分に割り引いて解釈するという法的前提に疑問を投げかけつつも、消費者満足度を低下させないという点でパファリーの法的保護の継続を支持する。本研究は、実際の市場環境におけるパファリーの効果について因果的証拠を提供し、マーケティングおよび消費者保護の議論に貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261440816" target="_blank" class="title">EXPRESS: Death or Muerte? Effects of Sales Language Use on the Consumption of Death-Related Products and Services</a></div>
-        <span class="date">2026-03-27</span>
-      </div>
-      <div class="authors">Lexie Lan Huang, Xueni Li, Kimmy Wa Chan</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates whether using consumers' second language (vs. native language) in sales communications can increase consumption of death-related products and services (DRPS) such as life insurance and funeral services. Through eight studies including two field experiments and an eye-tracking study, the authors find that presenting DRPS messages in consumers' second language reduces fear of death by creating greater psychological distance, thereby increasing actual purchases. The effect is moderated by perceived control over death, transcendence features, and required customer participation levels. This study contributes novel insights to terror management theory and provides practical language-based strategies for marketers and policymakers to encourage proactive DRPS decision-making.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、生命保険や葬儀サービスなどの死関連商品・サービス（DRPS）のセールスコミュニケーションにおいて、消費者の第二言語（母語ではなく）を使用することが購買行動を促進するかを検証した。2つのフィールド実験とアイトラッキング調査を含む8つの研究を通じて、第二言語でDRPSメッセージを提示すると、心理的距離が拡大して死への恐怖が軽減され、実際の購買が増加することが明らかになった。この効果は、死に対するコントロール認知が高い場合や、死後の超越性を強調する場合に弱まり、中程度の顧客参加を必要とする場合に強まることも示された。本研究は恐怖管理理論に新たな知見を加え、消費者にDRPSの早期検討を促すための言語ベースの実践的戦略を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261440557" target="_blank" class="title">EXPRESS: Vocal Similarity, Timbre, and Persuasion in Consumer-Spokesperson Interactions</a></div>
-        <span class="date">2026-03-25</span>
-      </div>
-      <div class="authors">Na Kyong Hyun, Michael Lowe, Aradhna Krishna</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates whether similarity in vocal timbre between consumers and spokespersons influences persuasion. Using machine learning to measure vocal similarity through mel-frequency cepstral coefficients (MFCCs), the researchers analyzed 7,002 Shark Tank entrepreneur-investor interactions and 2,091 Kickstarter campaigns, complemented by four laboratory experiments. Results demonstrate that vocal similarity increases persuasion, investment likelihood, and fundraising success, with effects mediated by increased trust in spokesperson competence and attenuated when external credibility signals are present. The research contributes new vocal analytics tools and extends similarity-persuasion theory to the auditory domain of consumer-spokesperson interactions.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、消費者とスポークスパーソン間の声の音色（ティンブル）の類似性が説得に影響を与えるかを検証した。メル周波数ケプストラム係数（MFCC）を用いた機械学習により声の類似性を客観的に測定し、Shark Tankの7,002件の起業家-投資家ペアと2,091件のKickstarterキャンペーン、および4つの実験室実験を分析した。その結果、声の類似性が説得効果、投資可能性、資金調達成功率を高めることが示され、この効果はスポークスパーソンの能力への信頼を介して生じ、外部の信頼性シグナルが存在する場合には減衰することが明らかになった。本研究は声の分析ツールを新たに提供し、類似性-説得理論を消費者-スポークスパーソン間相互作用の聴覚領域へ拡張した点で貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261434156" target="_blank" class="title">A Vision Editorial for the 2026–2029 <i>JMR</i> Team</a></div>
-        <span class="date">2026-03-25</span>
-      </div>
-      <div class="authors">Raphael Thomadsen</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This article presents the editorial vision for the Journal of Marketing Research (JMR) for the 2026-2029 editorial term. As the content is currently under embargo, specific details about the research priorities, methodological directions, and strategic initiatives outlined by the incoming editorial team cannot be summarized. The editorial likely discusses the journal's future direction, submission guidelines, and areas of focus for marketing research scholarship during this period.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論文は、Journal of Marketing Research (JMR) の2026年から2029年の編集期間における編集方針ビジョンを示す論説である。現在エンバーゴ（公開制限）期間中であるため、新編集チームが提示する研究の優先事項、方法論的方向性、戦略的イニシアチブの詳細については要約することができない。本編集論説では、この期間におけるジャーナルの将来的な方向性、投稿ガイドライン、およびマーケティング研究の重点領域について論じられていると推察される。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261439058" target="_blank" class="title">EXPRESS: Communication Patterns in Joint Decision-Making</a></div>
-        <span class="date">2026-03-24</span>
-      </div>
-      <div class="authors">KELLEY GULLO WIGHT, HOLLY S. HOWE, DANIELLE J. BRICK, GAVAN J. FITZSIMONS</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how people communicate during joint decision-making processes, addressing a gap in understanding dyadic communication patterns. Using nearly 200 shop-along observations, the authors identified four distinct communication patterns: coordination (inquiry and disclosure), contrast (persuasion and devil's advocate), build, and one-sided. Quantitative modeling revealed that decision partners navigate decisions non-linearly and that communication patterns affect immediate satisfaction outcomes. The study contributes a taxonomy integrating cross-disciplinary perspectives on dyadic communication to facilitate future interdisciplinary research.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、共同意思決定における人々のコミュニケーション方法を調査し、二者間コミュニケーションパターンの理解における研究ギャップに取り組んでいる。約200件の買い物同行観察を分析した結果、4つの異なるコミュニケーションパターンが特定された：調整（質問と開示）、対比（説得と反対意見の提示）、構築、一方的発言である。定量的モデリングにより、意思決定パートナーは非線形に意思決定を進め、コミュニケーションパターンが即時的な満足度に影響することが明らかになった。本研究は、二者間コミュニケーションに関する分野横断的な分類法を構築し、学際的研究の促進に貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261435578" target="_blank" class="title">EXPRESS: Measuring Heterogeneity in TV Advertising Elasticities: Evidence from 135 Retail and Restaurant Brands</a></div>
-        <span class="date">2026-03-12</span>
-      </div>
-      <div class="authors">Samsun Knight, Tsung-Yiou Hsieh, Yakov Bart</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates the heterogeneity of TV advertising effectiveness across store characteristics and advertising levels using a large-scale panel of 135 US retail and restaurant brands. The authors find significant heterogeneity in TV advertising elasticity for over 93% of brands, yet firms' actual ad allocations follow simple heuristics rather than exploiting this heterogeneity—overinvesting in dense, high-income markets while underinvesting in areas with high concentrations of college-educated residents. The research demonstrates that identical-budget reallocations leveraging this heterogeneity could improve ad lift by a median of 2.35 percentage points and generate tens of millions in additional revenue, with 14-16% of brands with negative ROI potentially achieving positive ROI. This study contributes to advertising effectiveness literature by providing large-scale empirical evidence of suboptimal ad allocation practices and quantifying the substantial financial gains from heterogeneity-based reallocation strategies.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、米国の小売・レストラン135ブランドの大規模パネルデータを用いて、店舗特性や広告水準によるテレビ広告効果の異質性を分析した。93%以上のブランドでテレビ広告弾力性に有意な異質性が確認されたが、企業の実際の広告配分はこの異質性を活用せず、高収益地域への広告投下など単純なヒューリスティックに従い、人口密度や所得の高い市場に過剰投資する一方、大卒者比率の高い市場への投資が不足していることが判明した。同一予算での再配分により広告効果を中央値で2.35ポイント改善し、数千万ドルの追加収益が見込まれ、ROIが負のブランドの14〜16%が正のROIを達成可能であることを示した。本研究は、広告配分の非効率性を大規模実証データで明らかにし、異質性を活用した再配分戦略の経済的価値を定量化した点で貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261433457" target="_blank" class="title">EXPRESS: Increasing App Engagement Behaviors via Goal-Enabling Technology Features: The Role of Goal Difficulty Dimensions</a></div>
-        <span class="date">2026-03-04</span>
-      </div>
-      <div class="authors">Jake An, André Bonfrer, Christine Eckert</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study examines how the difficulty of goals selected during goal-enabling technology feature (GETF) adoption affects user engagement and retention in mobile apps. Using behavioral data from an investment app combined with hierarchical modeling, staggered synthetic control, instrumental variable regression, and a field experiment, the authors address self-selection and endogeneity concerns. The results reveal that users who set moderately challenging goals and subgoals significantly increase in-app investment actions, with higher post-adoption engagement predicting improved one-year retention, while a field experiment confirms the causal effect of subgoal difficulty. This research contributes novel empirical evidence on optimal goal-difficulty levels for sustained app engagement and offers practical guidance for marketing managers to personalize goal-setting features.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、モバイルアプリにおける目標設定支援技術機能（GETF）採用時に選択される目標の難易度が、ユーザーのエンゲージメントと継続利用にどのように影響するかを検証した。投資アプリの行動データを用い、階層モデル、時差付き合成コントロール法、操作変数回帰、およびフィールド実験により自己選択とエンドジェネイティの問題に対処した。その結果、適度に挑戦的な目標とサブ目標を設定したユーザーはアプリ内投資行動を有意に増加させ、採用後の高いエンゲージメントが1年後の継続利用を予測することが明らかになった。本研究は、アプリエンゲージメントを促進する最適な目標難易度に関する新たな実証的知見を提供し、マーケティング実務への示唆を与えている。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261432198" target="_blank" class="title">EXPRESS: How Effective Is Suggested Pricing?: Experimental Evidence from an E-Commerce Platform</a></div>
-        <span class="date">2026-03-01</span>
-      </div>
-      <div class="authors">Jessica Fong, Puneet Manchanda, Yu Song</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates how platform-suggested prices affect sellers' pricing decisions and sales outcomes on e-commerce platforms. Through a field experiment conducted with Mercari, a peer-to-peer marketplace, the authors manipulated whether sellers received suggested prices and the suggested price levels. Key findings reveal that a 30% change in suggested prices leads to a 5% change in listing prices, with stronger effects for new sellers and used items; lower suggested prices improve both sale probability and seller revenue. The research contributes to understanding how platforms can effectively guide seller behavior while preserving sellers' ability to utilize their private information.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、プラットフォームが提示する推奨価格が売り手の価格設定と販売成果にどのような影響を与えるかを検証した。P2P型ECプラットフォームであるメルカリと協力し、推奨価格の有無およびその価格水準を操作するフィールド実験を実施した。主要な発見として、推奨価格が30%変化すると出品価格が同方向に5%変化し、この効果は新規出品者や中古品においてより顕著であること、また低い推奨価格は販売確率と売り手収益の両方を改善することが明らかになった。本研究は、プラットフォームが売り手の私的情報を活かしつつ効果的に価格設定を誘導できることを示し、プラットフォーム設計への実践的示唆を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261432622" target="_blank" class="title">EXPRESS: Less is More (Natural): The Effect of Ingredient Quantity Framing on Consumer Preferences</a></div>
-        <span class="date">2026-03-01</span>
-      </div>
-      <div class="authors">Michelle Yoosun Kim, Rachel Gershon, SYDNEY E. SCOTT, Daniella Kupor, Tianqi Chen, et al.</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research examines whether and how ingredient quantity information influences consumer food choices. Through two preregistered pilot studies, seven preregistered experiments, and ten supplementary experiments, the authors find that consumers generally prefer products framed as containing fewer ingredients because fewer ingredients signal less processing and greater naturalness. However, when other consumption goals such as seeking indulgence or uniqueness become salient, products with more ingredients can become preferred. This work contributes to marketing literature by revealing how ingredient quantity framing biases consumer perceptions and provides actionable guidance for marketers in product positioning.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、原材料の数量情報が消費者の食品選択にどのような影響を与えるかを検討している。2つの事前登録パイロット研究、7つの事前登録実験、および10の補足実験を通じて、消費者は一般的に原材料が少ないと表示された製品を好むことが明らかになった。これは、原材料が少ないほど加工度が低く、より自然であると知覚されるためである。ただし、贅沢さや独自性を求めるなど他の消費目標が重要になると、原材料が多い製品が好まれる場合もある。本研究は、原材料数量のフレーミングが消費者の知覚と日常的な食品選択にバイアスを与えるメカニズムを解明し、マーケターへの実践的示唆を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261427475" target="_blank" class="title">EXPRESS: Market Effects of Inattention: Theory and Evidence from Left-Digit Bias</a></div>
-        <span class="date">2026-02-16</span>
-      </div>
-      <div class="authors">Andreas Kraft, Raghunath Singh Rao</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study examines whether and how firms can profit from consumer inattention, specifically left-digit bias in odometer readings, in the used car market. Using a dataset of millions of automobile transactions over seven years, the authors theoretically model and empirically test how dealerships exploit this cognitive bias compared to private sellers. The findings reveal that dealerships strategically transact with more left-digit-biased consumers, sell more vehicles with odometer readings just below round numbers, achieve faster sales, and extract higher profit margins. This research contributes to understanding how market intermediaries can systematically 'skim' behaviorally biased consumers and capture meaningful surplus in decentralized markets.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、中古車市場において企業が消費者の不注意、特に走行距離計の左桁バイアスからどの程度・どのような条件で利益を得られるかを検証している。7年間にわたる数百万件の自動車取引データを用いて、理論モデルの構築と実証分析を行った。その結果、ディーラーは個人売買と比較して、左桁バイアスを持つ消費者とより多く取引し、走行距離がキリの良い数字を下回る車両をより多く・より早く販売し、高い利益率を得ていることが明らかになった。本研究は、市場仲介者が特定の行動バイアスを持つ消費者を選択的に取り込み、意味のある余剰を獲得できることを示した点で貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261423540" target="_blank" class="title">EXPRESS: Welfare Implications of Democratization in Content Creation: Generative AI and Beyond</a></div>
-        <span class="date">2026-01-29</span>
-      </div>
-      <div class="authors">Tianxin Zou, Zijun Shi, Yue Wu</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This article is currently under embargo and the full content is not available for summarization. The title suggests the research examines the welfare implications of democratizing content creation through generative AI technologies. Without access to the full text, specific details about the research question, methodology, key findings, and contributions cannot be determined. The paper appears to be forthcoming in the Journal of Marketing Research (JMR).</p></div>
-        <div class="block"><span class="tag">JA</span><p>この論文は現在エンバーゴ（公開制限）期間中であり、全文にアクセスできないため要約を作成することができません。タイトルから、生成AIなどの技術によるコンテンツ作成の民主化が社会厚生に与える影響を検討する研究であると推測されます。Journal of Marketing Research (JMR)に掲載予定の論文ですが、具体的な研究課題、方法論、主要な発見、貢献については全文公開後に確認する必要があります。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1177/00222437261423538" target="_blank" class="title">EXPRESS: Consumers Prefer that Corporations Donate Periodically</a></div>
-        <span class="date">2026-01-29</span>
-      </div>
-      <div class="authors">Alexander Park, Yanyi Leng, Fausto J. Gonzalez, Jared Watson, Francesca Valsesia, et al.</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how firms should communicate their corporate social responsibility (CSR) efforts, specifically whether periodic donations are more effective than equivalent lump-sum contributions. Through seven preregistered studies including two large field studies and five online experiments, the authors find that periodic donations (e.g., $20,000/month for 12 months) improve company outcomes such as reputation, customer engagement, and purchase likelihood compared to equivalent aggregate donations ($240,000/year). The benefits operate through two pathways: periodic donations signal consistent authentic prosocial motivation, which directly improves donor evaluations and also increases perceived donation impact. This research contributes to CSR communication strategy by highlighting consumers' sensitivity to consistency cues and the central role of perceived authentic motivation in granting charitable credit.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、企業がCSR活動をどのように伝えるべきか、特に定期的な寄付が一括寄付より効果的かを検証している。2つの大規模フィールド実験と5つのオンライン実験を含む7つの事前登録研究を通じて、定期的な寄付（例：月2万ドルを12ヶ月）は同額の一括寄付（例：年24万ドル）と比較して、企業の評判、顧客エンゲージメント、購買意向を向上させることが明らかになった。この効果は2つの経路で作用する：定期的寄付の一貫性が真正な親社会的動機の判断を高め、それが直接的に寄付者評価を向上させるとともに、寄付のインパクト認知も高める。本研究は、消費者が一貫性の手がかりに敏感であること、およびCSRにおける真正な動機認知の重要性を示し、CSRコミュニケーション戦略に貢献している。</p></div>
-      </div>
-    </div></div><div id="panel-JM" class="panel"><div class="journal-title" style="border-left:4px solid #0F6E56;padding-left:12px;margin-bottom:16px"><strong>Journal of Marketing</strong></div>
     <div class="card ">
       <div class="card-head">
         <div class="title-row"><a href="https://doi.org/10.1177/00222429261464104" target="_blank" class="title">EXPRESS: A Recipe for Creativity: An Ingredient Embedding Approach</a></div>
@@ -2446,175 +2122,19 @@ main{max-width:960px;margin:24px auto;padding:0 20px}
         <div class="block"><span class="tag">EN</span><p>This study investigates how influencers' endorsement rates—the proportion of sponsored posts to total posts—affect consumer engagement with sponsored content. Using a multimethod approach including two field studies and two controlled experiments across platforms like Instagram, Twitter, and Douyin, the research reveals a U-shaped relationship between endorsement rate and consumer engagement. This pattern emerges from two opposing forces: higher endorsement rates increase perceived brand recognition but also raise audience suspicion of manipulative intent. The findings contribute to influencer marketing literature by identifying organic product mentions and consistent brand endorsements as moderators, while providing marketers with a practical framework for influencer selection.</p></div>
         <div class="block"><span class="tag">JA</span><p>本研究は、インフルエンサーの「エンドースメント率」（総投稿数に占めるブランドスポンサー投稿の割合）が、スポンサー投稿への消費者エンゲージメントにどのような影響を与えるかを検証した。Instagram、Twitter、Douyinなど複数のプラットフォームを対象に、2つのフィールドスタディと2つの実験を含むマルチメソッドアプローチを用いた結果、エンドースメント率と消費者エンゲージメントの間にU字型の関係があることが明らかになった。この関係は、エンドースメント率の上昇がブランド認知度の向上をもたらす一方で、操作的意図への疑念も高めるという2つの相反する力の相互作用から生じている。さらに、オーガニックな商品言及や一貫したブランド推奨がこの影響を緩和することを示し、インフルエンサー選定における実践的な枠組みを提供している。</p></div>
       </div>
-    </div></div><div id="panel-JCR" class="panel"><div class="journal-title" style="border-left:4px solid #534AB7;padding-left:12px;margin-bottom:16px"><strong>Journal of Consumer Research</strong></div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag015" target="_blank" class="title">Defining and Understanding Vintage</a></div>
-        <span class="date">2026-06-15</span>
-      </div>
-      <div class="authors">Maren Hoff, Silvia Bellezza</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research addresses the question of what defines vintage products and how they differ from related concepts such as antique, secondhand, and retro items. Using a multimethod approach including interviews, surveys, experiments, and analysis of over 2,000 vintage products across 16 categories, the authors develop a unified framework identifying vintage as a composite formative construct determined by three dimensions: moderate age, iconicity, and scarcity. The key findings reveal that vintage products deliver personal benefits (heritage connection, authenticity), social benefits (coolness), and sustainability benefits (environmental responsibility), and that emphasizing these three dimensions enhances consumer responses more effectively for vintage than for new products. This research contributes a theoretical foundation for understanding vintage consumption and provides practical guidance for identifying and positioning vintage products in the marketplace.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、ヴィンテージ製品とは何か、またアンティーク、中古品、レトロといった関連概念とどのように異なるのかという問いに取り組んでいる。インタビュー、調査、実験、16カテゴリにわたる2,000点以上のヴィンテージ製品の分析を含むマルチメソッドアプローチを用いて、ヴィンテージを「適度な古さ」「象徴性（アイコニシティ）」「希少性」の3次元によって規定される複合的形成構成概念として定義する統一的フレームワークを開発した。主要な発見として、ヴィンテージ製品は個人的便益（遺産とのつながり、本物らしさ）、社会的便益（クールさ）、持続可能性の便益（環境責任）をもたらし、これら3次元を強調することで新製品よりも消費者反応が高まることが示された。本研究はヴィンテージ消費を理解するための理論的基盤を提供し、市場におけるヴィンテージ製品の識別とポジショニングに実践的な指針を与える貢献をしている。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag014" target="_blank" class="title">Digital Singularization: The Socio-Technical Production of Uniqueness</a></div>
-        <span class="date">2026-05-28</span>
-      </div>
-      <div class="authors">Domen Bajde, Konstantinos Lianidis, Mikkel Nøjgaard</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates how digital goods are singularized (valorized as unique) in digital markets, addressing a gap in understanding digital singularization processes. Using a multimethod qualitative approach inspired by Reckwitz's sociology of singularities, the researchers examined a market for singularized digital goods. The study identifies four vectors of digital singularization, reveals variable ways technology mediates this process, and uncovers multiple tensions inherent in digital singularization. Key contributions include theorizing singularization as an inherently precarious, socio-technical process and advancing understanding of digital possession, value creation, and contemporary singularity markets.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、デジタル財がデジタル市場においてどのように特異化（ユニークなものとして価値づけ）されるかを探究し、デジタル特異化プロセスの理解における空白を埋めることを目的としている。Reckwitzの特異性の社会学に着想を得たマルチメソッド質的研究により、特異化されたデジタル財の市場を分析した。その結果、デジタル特異化の4つのベクトル、テクノロジーが特異化を媒介する多様な方法、およびこのプロセスに内在する複数の緊張関係が明らかになった。主要な貢献として、特異化を本質的に不安定な社会技術的プロセスとして理論化し、デジタル所有、デジタル市場における価値創造、および現代の「特異性市場」に関する新たな知見を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag013" target="_blank" class="title">Made With AI: Consumer Engagement with Social Media Containing AI Disclosures</a></div>
-        <span class="date">2026-05-05</span>
-      </div>
-      <div class="authors">Stephan Carney, Ignacio Riveros, Stephanie Tully</div>
-      <div class="kwrow"><span class="kwbadge">AI</span><span class="kwbadge">artificial intelligence</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how AI-generated content (AIGC) disclosures on social media affect consumer engagement. Using analysis of TikTok engagement data following their AIGC disclosure policy introduction and eight preregistered experiments, the authors find that AIGC disclosures reduce consumer engagement. Crucially, this reduction is not driven by concerns about content quality or AI aversion, but rather by diminished parasocial connection—the one-sided emotional bonds between consumers and creators—mediated by perceived creator effort. The study contributes a novel mechanism explaining consumer responses to AI disclosures and offers practical implications for platform policies and disclosure design, suggesting that signals of greater creator effort can mitigate engagement losses.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、ソーシャルメディアにおけるAI生成コンテンツ（AIGC）開示が消費者エンゲージメントにどのような影響を与えるかを検討した。TikTokのAIGC開示ポリシー導入後のエンゲージメントデータ分析と8つの事前登録実験により、AIGC開示がエンゲージメントを低下させることが明らかになった。この低下はコンテンツの品質への懸念やAI嫌悪ではなく、クリエイターの努力認知の低下を介したパラソーシャルコネクション（消費者とクリエイター間の一方向的な感情的絆）の減少によって生じることを発見した。本研究はAI開示への消費者反応を説明する新たなメカニズムを提示し、クリエイターの努力を示す開示設計がエンゲージメント低下を緩和できるというプラットフォームポリシーへの実践的示唆を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag012" target="_blank" class="title">Inferences About Others’ Consumption Motives Influence What Consumers Expect from Similar Experiences</a></div>
-        <span class="date">2026-05-01</span>
-      </div>
-      <div class="authors">Matthew J. Hall, Daniel M. Zane</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how consumers' inferences about others' intrinsic or extrinsic motives for sharing experiences on social media influence viewers' expectations about those experiences. Through six studies, the authors demonstrate that when viewers infer a sharer had particular motives (intrinsic or extrinsic), they believe the experience is better suited to satisfy that same type of motive, which subsequently affects their own behavior during similar experiences. However, this effect disappears when viewers are highly familiar with the shared experience. The research contributes to understanding social influence on social media by showing that inferred motives not only affect social evaluations of sharers but also shape beliefs about the experiences themselves.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、ソーシャルメディア上で他者が共有した体験を見た消費者が、その投稿者の内発的・外発的動機を推論し、それが体験そのものへの期待にどう影響するかを検討している。6つの研究を通じて、視聴者が投稿者の動機（内発的または外発的）を推論すると、その体験が同種の動機を満たすのに適していると信じるようになり、自身が類似体験に従事する際の行動にも影響することを示した。ただし、視聴者がその体験に精通している場合、この効果は消失する。本研究は、推論された動機が投稿者への社会的評価だけでなく体験そのものへの信念も形成することを明らかにし、ソーシャルメディアにおける社会的影響の新たな現象を提示した点で貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag011" target="_blank" class="title">Brief Commentary: Theory Testing for Differences in Process – Hypothesizing, Testing, and Reporting Comparisons Between Indirect Effects</a></div>
-        <span class="date">2026-04-16</span>
-      </div>
-      <div class="authors">Romain Cadario, Dan Schley, Gavan J. Fitzsimons</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This paper addresses how consumer researchers should properly map theoretical hypotheses about process differences onto statistical tests when comparing indirect effects across contexts (moderated mediation) or mediators (parallel mediation). The authors demonstrate that different theoretical claims require different statistical approaches—for instance, claiming one conditional indirect effect is greater than another requires testing the index of moderated mediation, not simply reporting significance patterns. They provide two comprehensive tutorials covering theory-to-statistics mapping, appropriate model selection, and transparent reporting practices. The contribution lies in offering concrete guidance including pre-registration templates, data analysis procedures, and manuscript reporting examples to improve methodological rigor in process-focused consumer research.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論文は、消費者研究において間接効果を文脈間（調整された媒介）や媒介変数間（並列媒介）で比較する際に、プロセスの違いに関する理論的仮説を統計的検定に適切に対応させる方法を論じている。著者らは、異なる理論的主張には異なる統計的アプローチが必要であることを示し、例えば条件付き間接効果の大小を主張する場合は調整された媒介の指標（index of moderated mediation）の検定が必要であり、単に有意性パターンを報告するだけでは不十分であると説明している。理論と統計の対応付け、適切なモデル選択、透明性のある報告方法について2つのチュートリアルを提供している。事前登録テンプレート、データ分析手順、論文報告例などの具体的なガイダンスを提供し、プロセス研究における方法論的厳密性の向上に貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag010" target="_blank" class="title">A Framework for Understanding Consumer Response to the Depiction of Historically Underrepresented Identities in Marketing Communications</a></div>
-        <span class="date">2026-04-14</span>
-      </div>
-      <div class="authors">Cory Haltman, Jianna Jin, Grant E Donnelly, Rebecca Walker Reczek</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates why consumer responses to historically underrepresented identities (HUIs) in marketing communications vary, ranging from backlash to acceptance. Using moral foundations theory, the authors develop a framework proposing that while liberals respond positively to all HUI depictions due to their emphasis on Fairness, conservatives' responses depend on two dimensions: perceived agency and normativity regarding bodily purity. The findings reveal that conservatives react negatively only to HUIs perceived as high on both dimensions (e.g., obese, transgender, or hijab-wearing models), and this negative response is attenuated when the identity is low on either dimension or when HUIs appear as a numerical minority in campaigns. This framework contributes to understanding political ideology's role in advertising effectiveness and offers practical guidance for inclusive marketing strategies.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、マーケティング・コミュニケーションにおける歴史的に過小代表されてきたアイデンティティ（HUI）の描写に対する消費者反応が、なぜ反発から受容まで多様に分かれるのかを検討している。道徳基盤理論を用いて、リベラル派は公正性を重視するため全てのHUI描写に肯定的に反応する一方、保守派の反応は「主体性（agency）」と「身体的純潔に関する規範性（normativity）」という2次元の認知に依存するという枠組みを提案している。研究の結果、保守派は両次元が高いと認知されるHUI（肥満モデル、トランスジェンダーモデル、ヒジャブ着用モデル等）にのみ否定的に反応し、いずれかの次元が低い場合や、HUIがキャンペーン内で数的少数派として登場する場合には否定的反応が緩和されることが示された。本研究は、政治的イデオロギーが広告効果に与える影響の理解に貢献し、インクルーシブ・マーケティング戦略への実務的示唆を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag009" target="_blank" class="title">Repair Service Signals: How Brand Repair Services Signal Unused Utility and Increase Product Repair</a></div>
-        <span class="date">2026-04-13</span>
-      </div>
-      <div class="authors">Nathan Allred, Karen Page Winterich</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates why brand repair services, compared to third-party services, are more effective at promoting product repair over replacement. Through two field studies and four lab experiments, the authors demonstrate that brand and brand-certified repair services signal unused utility in malfunctioning products, thereby increasing consumers' likelihood to repair rather than replace. The effect diminishes when consumers have domain expertise, when products hold sentimental value (as repair occurs without brand signals), or when product upgrades are salient (which attenuates the unused utility signal). This work contributes to signaling theory, unused utility literature, and offers practical implications for sustainability efforts and brand management strategies.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、ブランドが提供する修理サービスがサードパーティの修理サービスと比較して、なぜ製品の修理を促進するのかを検討している。2つのフィールド調査と4つの実験室実験を通じて、ブランドおよびブランド認定修理サービスが故障した製品の「未使用効用（unused utility）」をシグナルとして伝達し、消費者の修理意向を高めることを実証した。ただし、消費者が専門知識を持つ場合や製品に感傷的価値がある場合はブランドのシグナルなしでも修理が行われ、アップグレードが顕著な場合は未使用効用への効果が減衰することが示された。本研究はシグナリング理論と未使用効用の文献に貢献し、過剰消費を抑制するサステナビリティ施策やブランド管理への実務的示唆を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag008" target="_blank" class="title">When Goods Were Odds: Do People Prefer Uncertain Goods After Uncertainty Is Resolved?</a></div>
-        <span class="date">2026-04-08</span>
-      </div>
-      <div class="authors">Beidi Hu, Siyuan Yin, Alice Moon</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how people evaluate goods that originated from uncertain prospects (e.g., raffle prizes) after the uncertainty has been resolved. Through seven experiments with over 12,000 participants, the authors demonstrate an 'uncertainty spillover effect' whereby people prefer goods that came from uncertain origins compared to identical goods that were always known. The effect is explained by downward counterfactual thinking—uncertainty makes people perceive outcomes as superior relative to worse alternatives that could have occurred. This research contributes to consumer behavior literature by showing that uncertainty's influence persists beyond its resolution, affecting product evaluations and extending to associated products.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、不確実な状況（例：抽選）から得られた商品が、不確実性が解消された後にどのように評価されるかを検討した。12,000人以上を対象とした7つの実験を通じて、「不確実性スピルオーバー効果」を実証し、不確実な起源を持つ商品は、最初から確定していた同一商品よりも好まれることを明らかにした。この効果は下方反事実思考によって説明され、不確実性により「起こりえたより悪い結果」と比較して現在の結果が優れていると知覚される。本研究は、不確実性の影響がその解消後も持続し、商品評価や関連商品にまで波及することを示し、消費者行動研究に貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag007" target="_blank" class="title">Received! How Acknowledgment Increases a Company’s Sustainability Image and Drives Repeat Customer Participation in Take-Back Programs</a></div>
-        <span class="date">2026-03-24</span>
-      </div>
-      <div class="authors">Yuly Hong, Sara Loughran Dommer, Karen Page Winterich</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates whether company acknowledgment of customer participation in take-back programs can enhance sustainability perceptions and encourage repeat participation. Through seven studies including a field study, the authors demonstrate that simple acknowledgment increases customers' emotional attachment and sense of partnership with the company, leading to higher perceived sustainability and greater likelihood of repeat participation. The effect is stronger for take-back programs than company-beneficial programs, and is attenuated by high self-brand connection and industry greenwashing. This work contributes theoretical insights into customer-company partnerships in sustainability contexts and provides practical guidance for managers implementing take-back programs.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、企業が回収プログラム（テイクバック・プログラム）への顧客参加を承認（アクノレッジメント）することで、サステナビリティイメージの向上と再参加を促進できるかを検証した。フィールド実験を含む7つの研究を通じて、単純な承認が顧客の企業への感情的愛着とパートナーシップ意識を高め、企業のサステナビリティ認知と再参加意向を向上させることを実証した。この効果は企業利益型プログラムよりも回収プログラムで強く、顧客のセルフブランドコネクションが高い場合や業界のグリーンウォッシングが存在する場合には減衰することが示された。本研究はサステナビリティ文脈における顧客・企業パートナーシップに関する理論的貢献と、回収プログラムを展開する企業への実務的示唆を提供する。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag006" target="_blank" class="title">Brief Commentary: A Framework for Detecting AI Agents in Online Research</a></div>
-        <span class="date">2026-03-21</span>
-      </div>
-      <div class="authors">Felipe M. Affonso</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This paper addresses the emerging challenge of detecting AI agents autonomously completing online surveys, which traditional attention checks fail to identify. The author introduces the Cognitive Trap Framework, which exploits architectural constraints of vision-language models to create questions that are difficult for AI but easy for humans. Testing against 1,007 human participants and 526 AI agents showed that cognitive traps detected 97.1% of agents while only flagging 4.1% of humans, compared to just 2.3% detection with traditional methods. The framework's key contribution is its adaptability—since AI model improvements are non-monotonic, new traps can be generated as agent architectures evolve, with validated tools made publicly available for researchers.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本論文は、視覚対応AIエージェントがオンライン調査を自律的に完了できるようになった現状において、従来の注意確認手法では検出が困難であるという課題に取り組んでいる。著者は、視覚言語モデルのアーキテクチャ上の制約を利用し、AIには困難だが人間には容易な質問を設計する「認知トラップフレームワーク」を提案した。1,007名の人間参加者と526体のAIエージェントを対象とした検証では、認知トラップはエージェントの97.1%を検出し（従来手法は2.3%）、人間の誤検出率はわずか4.1%であった。本フレームワークの主要な貢献は、AIモデルの進化が非単調であるため新たなトラップを継続的に生成できる適応性にあり、検証済みのツールが研究者向けに公開されている点にある。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag003" target="_blank" class="title">Limiting Accessibility: How Targeting Consumers with Disabilities Constrains Acceptable Prices for Innovations</a></div>
-        <span class="date">2026-03-18</span>
-      </div>
-      <div class="authors">Musa Essa, Johannes Boegershausen, Gabriele Paolacci</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates how mass-market consumers react to innovations targeting people with disabilities, particularly regarding price acceptability. Through nine main studies and six supplementary studies (twelve preregistered), the authors find that consumers view price premiums as less acceptable when products target people with disabilities compared to other segments, even when cost justifications are provided. The research identifies pity toward people with disabilities as the key psychological driver of this reaction, with variations in pity across different disabilities corresponding to differences in price premium acceptability. This work contributes by revealing a novel form of consumer paternalism that may paradoxically reduce marketplace inclusivity by penalizing companies that develop adaptive products for this underserved segment.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、障害者をターゲットとしたイノベーションに対して一般消費者がどのように反応するか、特に価格受容性の観点から検討している。9つの主要研究と6つの補足研究（12件が事前登録）を通じて、障害者向け製品に対するプレミアム価格は、他のセグメント向け製品と比較して消費者から受け入れられにくく、企業がコスト正当化を行っても この傾向は持続することを明らかにした。この反応の主要な心理的要因として障害者への「哀れみ」を特定し、障害の種類による哀れみの程度の違いが価格プレミアムの受容性の差異と関連していることを示した。本研究は、消費者のパターナリズムという新たな現象を発見し、逆説的にもこの見方が十分なサービスを受けていない障害者セグメント向けの製品開発企業を罰することで、市場の包摂性を低下させる可能性を示唆している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag005" target="_blank" class="title">More Correlations Signal Causation: The Effect of Correlational Scope on Perceived Causality</a></div>
-        <span class="date">2026-03-07</span>
-      </div>
-      <div class="authors">Yue Zhang, Gabriele Paolacci</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This research investigates when consumers perceive statistical correlations as reflecting causal relationships in the context of big data and media reporting. Through eight preregistered studies, the authors demonstrate that a correlation (e.g., between tea drinking and bone health) is perceived as more causal when the plausible cause correlates with additional outcomes (correlational scope effect). This effect is attenuated when additional outcomes are weakly related to the focal outcome, mitigated under cause-last framing, and influences product choices. The findings contribute to understanding causal judgment by proposing category-based induction as an underlying mechanism and have implications for consumer well-being.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、ビッグデータ時代において消費者がいつ統計的相関を因果関係として知覚するかを検討している。8つの事前登録研究を通じて、ある相関（例：お茶の摂取と骨の健康）において、想定される原因が追加的な結果（例：心臓の状態）とも相関している場合、その相関がより因果的であると知覚されることを示した（相関スコープ効果）。この効果は、追加結果が主要結果と弱い関連性を持つ場合に減衰し、原因を後に提示するフレーミングで緩和され、製品選択にも影響を与える。カテゴリーベースの帰納がこの効果に寄与するメカニズムとして提案され、因果判断の理解と消費者の福祉に重要な示唆を提供している。</p></div>
-      </div>
-    </div>
-    <div class="card ">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag004" target="_blank" class="title">From Adaptation to Disruption: Structured Ambivalence as a Catalyst for Consumer-Led Institutional Work</a></div>
-        <span class="date">2026-03-03</span>
-      </div>
-      <div class="authors">Anna E. Hartman, Eileen Fischer</div>
-      
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study examines how consumers respond to ambivalence arising from conflicting institutional norms in the U.S. donor conception market. Using interviews, archival narratives, and case profiles, the authors develop a typology distinguishing between adaptation work (reconciling contradictions within existing arrangements) and disruption work (transforming institutional arrangements), each with individual and collaborative variants. The key finding reveals that adaptive work paradoxically reinforces the market system producing ambivalence, while structured ambivalence serves as a micro-level emotional catalyst driving the full spectrum of consumer-led institutional work. This research contributes to institutional theory by specifying the emotional and reflexive underpinnings of how consumers engage in institutional continuity and change within markets.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、米国の提供型生殖医療市場において、制度的規範の矛盾から生じるアンビバレンス（両価性）に消費者がどのように対応するかを検討している。インタビュー、アーカイブ資料、事例分析を用いて、既存の制度的取り決め内で矛盾を調整する「適応ワーク」と制度的取り決めを変革する「破壊ワーク」を区別する類型論を構築し、それぞれに個人的・協働的な形態があることを示した。主要な発見として、適応ワークはアンビバレンスを生み出す市場システムを逆説的に強化すること、また構造化されたアンビバレンスが消費者主導の制度的ワーク全般を駆動するミクロレベルの感情的触媒であることが明らかになった。本研究は、消費者が市場における制度の継続と変化にどのように関与するかの感情的・省察的基盤を特定し、制度論のミクロ的基礎に貢献している。</p></div>
-      </div>
-    </div>
-    <div class="card kw-match">
-      <div class="card-head">
-        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag002" target="_blank" class="title">The Effect of Online Cart Composition on Cart Abandonment</a></div>
-        <span class="date">2026-01-30</span>
-      </div>
-      <div class="authors">Liat Hadar, Yael Steinhart, Gil Appel, Yaniv Shani</div>
-      <div class="kwrow"><span class="kwbadge">AI</span></div>
-      <div class="summaries">
-        <div class="block"><span class="tag">EN</span><p>This study investigates how the composition of online shopping carts affects cart abandonment rates. Using two large-scale field datasets and four controlled experiments, the authors demonstrate that carts with a higher proportion of hedonic (vs. utilitarian) products are more likely to be abandoned, an effect mediated by perceived hedonism and consumer guilt. The research contributes to e-commerce literature by identifying cart composition as a key factor in abandonment and offers a practical intervention: recommendation systems can reduce abandonment by suggesting utilitarian items to balance cart composition.</p></div>
-        <div class="block"><span class="tag">JA</span><p>本研究は、オンラインショッピングカートの商品構成がカート放棄率にどのように影響するかを検証した。2つの大規模フィールドデータセットと4つの統制実験を用いて、快楽的（hedonic）商品の比率が高いカートは放棄されやすく、この効果はカートの快楽的知覚と消費者の罪悪感によって媒介されることを実証した。本研究はカート構成が放棄の重要な要因であることを明らかにし、レコメンデーションシステムで実用的商品を提案することでカート放棄を低減できるという実践的介入策を提示した点で貢献している。</p></div>
-      </div>
     </div></div><div id="panel-P&M" class="panel"><div class="journal-title" style="border-left:4px solid #72243E;padding-left:12px;margin-bottom:16px"><strong>Psychology & Marketing</strong></div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/mar.70191" target="_blank" class="title">Circular for Me, Angular for Us: Shared Consumption Increases Consumers' Preference for Angular Products</a></div>
+        <span class="date">2026-06-19</span>
+      </div>
+      <div class="authors">L Wang, Jianmin Zeng</div>
+      <div class="kwrow"><span class="kwbadge">AI</span><span class="kwbadge">shared consumption</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how shared versus solo consumption contexts influence consumers' preferences for product shapes. Through ten experiments examining basic effects, mediation, and moderation, the authors found that shared consumption increases preference for square over round products, mediated by heightened divisibility needs. The effect disappears when the belief that squares are easier to divide is weakened, when products are non-rivalrous, or reverses when sharing is associated with reunion. These findings contribute to theories of consumption modes and sensory marketing while providing practical implications for product design and retail strategy.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、共有消費と単独消費の文脈が消費者の製品形状選好にどのような影響を与えるかを検討した。10の実験を通じて、共有消費状況では丸い製品よりも四角い製品への選好が高まることが示され、この効果は共有消費における分割可能性ニーズの高まりによって媒介されることが明らかになった。四角形の方が分割しやすいという信念が弱まった場合や、製品が非競合的である場合にはこの効果は消失し、共有が再会と強く結びつく場合には選好が逆転した。これらの知見は消費モードと感覚マーケティングの理論を拡張し、製品デザインや小売戦略への実践的示唆を提供する。</p></div>
+      </div>
+    </div>
     <div class="card kw-match">
       <div class="card-head">
         <div class="title-row"><a href="https://doi.org/10.1002/mar.70189" target="_blank" class="title">Do Not Think Ahead of Me: High‐Personalization Chatbots Can Backfire During the Goal Formation Stage</a></div>
@@ -3561,6 +3081,582 @@ main{max-width:960px;margin:24px auto;padding:0 20px}
       <div class="summaries">
         <div class="block"><span class="tag">EN</span><p>This paper addresses the lack of a unifying framework to explain contradictions arising from technological advancement and consumer psychology in the consumer market. The authors introduce a conceptual model based on technology paradox theory that maps the dynamic process from antecedents (technological and psycho-cultural forces) to consumer outcomes through core tensions and coping strategies. By synthesizing eight transformative trends through this lens, the study reveals underlying psychological mechanisms and proposes a model-driven research agenda for future scholarship. The paper contributes both theoretically by providing an integrative framework and practically by offering managers three specific strategies—ethical AI design with transparent data practices, authentic inclusivity, and sustainable innovation—to navigate market paradoxes.</p></div>
         <div class="block"><span class="tag">JA</span><p>本論文は、消費者市場における技術進歩と消費者心理の衝突から生じる矛盾を説明する統一的フレームワークの欠如という課題に取り組んでいる。著者らはテクノロジー・パラドックス理論に基づく概念モデルを提示し、先行要因（技術的・心理文化的要因）から核心的緊張関係（例：パーソナライゼーション対プライバシー）と対処戦略を経て消費者アウトカムに至る動的プロセスをマッピングした。このレンズを通じて8つの変革的トレンドを統合し、その背後にある心理的メカニズムを明らかにするとともに、将来の研究に向けたモデル駆動型の研究アジェンダを提案している。理論的には統合的フレームワークの提供、実務的には倫理的AI設計と透明なデータ慣行、真正なインクルーシビティ、持続可能なイノベーションという3つの戦略を通じて、管理者が市場のパラドックスを乗り越えるための指針を示した点で貢献している。</p></div>
+      </div>
+    </div></div><div id="panel-JCP" class="panel"><div class="journal-title" style="border-left:4px solid #854F0B;padding-left:12px;margin-bottom:16px"><strong>Journal of Consumer Psychology</strong></div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70033" target="_blank" class="title">Three strategies for claiming research progress</a></div>
+        <span class="date">2026-06-18</span>
+      </div>
+      <div class="authors">David Gal, Bobby Calder, Brian Sternthal</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This paper addresses how consumer researchers can justify claims of research progress by identifying three distinct strategies: establishing-an-effect (demonstrating replicable X-Y relationships), theory-of-the-effect (specifying local mechanistic accounts), and theoretical framework (developing explanations transcending single effects). Through coding recent articles in leading consumer research journals, the authors find that the field overwhelmingly relies on the theory-of-the-effect strategy while rarely advancing theoretical frameworks. The paper clarifies the core logic, methodological emphases, and vulnerabilities of each strategy, and provides actionable guidance for progressing from theories of effects to broader frameworks. The contribution lies in arguing that deliberately combining these strategies provides a stronger foundation for claiming meaningful research progress.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論文は、消費者研究者が研究の進歩をどのような根拠で主張できるかという問いに対し、3つの戦略を提示している。具体的には、効果の確立（変数XとYの関係の再現性）、効果の理論（局所的なメカニズムの特定）、理論的フレームワーク（単一の効果を超えた説明）である。主要な消費者研究ジャーナルの最近の論文をコーディング分析した結果、当該分野は効果の理論戦略に圧倒的に依存しており、理論的フレームワークの構築はほとんど行われていないことが明らかになった。各戦略の論理・方法論的重点・脆弱性を明確化し、効果の理論からフレームワークへ発展させるための実践的指針を提供することで、3つの戦略を意図的に組み合わせることが研究進歩の主張をより強固にすると論じている。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70022" target="_blank" class="title">Gender identity, overconfidence, and risk attitudes</a></div>
+        <span class="date">2026-06-16</span>
+      </div>
+      <div class="authors">Edward R. Lawrence, Benedikt Wick</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates the relationship between gender identity, overconfidence, and investment risk-taking behaviors using a measure of overconfidence defined as the gap between perceived and actual financial knowledge. The empirical analysis reveals that nonbinary individuals exhibit significantly lower levels of financial overconfidence compared to those identifying as male or female, attributable to more modest self-assessment rather than differences in actual knowledge. The findings show that higher overconfidence correlates with greater willingness to take financial risks, and nonbinary individuals demonstrate considerably lower risk-taking inclination in investment decisions. This research contributes to the literature by extending the analysis of gender effects in financial decision-making beyond the traditional binary framework and ruling out mental health challenges and generic minority effects as explanations.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、ジェンダー・アイデンティティと過信、投資リスク行動の関係を、認識された金融知識と実際の金融知識の乖離を過信の指標として用いて検証した。実証分析の結果、ノンバイナリーの個人は男性・女性と自認する人々と比較して金融に関する過信が有意に低く、これは実際の知識の差ではなく、より控えめな自己評価に起因することが明らかになった。過信が高いほど金融リスクを取る意欲が高まり、ノンバイナリーの個人は投資判断においてリスクを取る傾向が著しく低いことが示された。本研究は、金融意思決定におけるジェンダー効果の分析を従来の二項対立的枠組みを超えて拡張し、メンタルヘルスの課題やマイノリティ効果では説明できないことを示した点で貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70032" target="_blank" class="title">The continuity heuristic: Temporal extrapolation in consumer judgment</a></div>
+        <span class="date">2026-06-14</span>
+      </div>
+      <div class="authors">Matthew Fisher, Adam H. Smiley</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how consumers predict the future longevity of products, brands, and services. Across 24 studies with 9,718 participants, the authors demonstrate the 'continuity heuristic'—a mental shortcut where consumers use past duration as a basis for forecasting future continuation. The effect persists across diverse domains including brand heritage, product obsolescence, subscriptions, and trends, even when quality is controlled and age is not explicitly mentioned. The authors propose a question-substitution mechanism and show the effect weakens for technology products (with clear lifespan norms) and expert consumers, contributing to temporal judgment psychology and offering marketers insights for predicting consumer preferences and perceived durability.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、消費者が製品・ブランド・サービスの将来的な持続期間をどのように予測するかを検討した。24の研究（N=9,718）を通じて、消費者が過去の存続期間を基に将来の継続を予測する「継続性ヒューリスティック」を実証した。この効果は、ブランドの伝統、製品の陳腐化、サブスクリプション継続、トレンド予測など多様な領域で確認され、品質を統制し年数を明示しない場合でも持続した。著者らは質問置換メカニズムを提唱し、明確な寿命規範がある技術製品や専門知識を持つ消費者では効果が弱まることを示し、時間的判断の心理学およびマーケティング実務への貢献を果たした。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70030" target="_blank" class="title">Authenticity as fact or feeling: A dual‐process framework of consumer authenticity judgments</a></div>
+        <span class="date">2026-05-25</span>
+      </div>
+      <div class="authors">R Kevin Smith, Katherine Du</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This paper addresses the question of how consumers form authenticity judgments, rather than focusing on what authenticity is. Through a systematic review of authenticity research integrated with dual-process theories, the authors propose a conceptual framework positioning authenticity judgments as proceeding through two routes: a fact-based route involving deliberate analytical evaluation and a feeling-based route relying on intuitive processing and emotional resonance. This framework explains existing paradoxes in authenticity research and generates novel predictions about authenticity cues, situational conditions activating each route, and downstream brand implications. The contribution lies in embedding authenticity judgments within established psychological theory to provide a more unified and predictive foundation for future research.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論文は、真正性（オーセンティシティ）とは何かではなく、消費者がいかにして真正性判断を形成するかという問いに取り組んでいる。真正性研究の体系的レビューと二重過程理論を統合し、真正性判断が2つの経路を通じて行われるという概念的枠組みを提案している。すなわち、意図的・分析的評価に基づく「事実ベース経路」と、直感的処理や感情的共鳴に基づく「感情ベース経路」である。この枠組みは真正性研究における既存のパラドックスを説明し、各経路で優先される手がかりや活性化条件、ブランドへの影響について新たな予測を生成する。確立された心理学理論に真正性判断を位置づけることで、より統一的で予測力のある研究基盤を提供している点が貢献である。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70028" target="_blank" class="title">Repentance‐driven fitness: Moral striving in a Tunisian context</a></div>
+        <span class="date">2026-05-22</span>
+      </div>
+      <div class="authors">Hela Zouaoui, Russell Belk, Vitor Lima</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study examines how Islamic moral-spiritual meaning systems shape fitness consumption motivations and sustain ongoing moral striving among Muslim gymgoers. Using 13 months of ethnography and 17 interviews in a Tunisian gym, the researchers found that participants interpret exercise through Tawba (Islamic repentance and return), where diet lapses, missed sessions, and bodily discomfort become part of a recurring cycle of renewed intention and moral self-correction. The study reveals that fitness effort gains legitimacy when perceived as sincere, modest, and restrained, while display-oriented practices like selfies and transformation narratives become morally suspect. This research extends goal-striving literature by demonstrating how religious meaning systems sustain persistence through repeated moral return rather than linear progress.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、イスラムの道徳的・精神的意味体系がフィットネス消費の動機をどのように形成し、継続的な道徳的努力を維持するかを検討している。チュニジアのジムで13ヶ月間の民族誌調査と17名へのインタビューを実施した結果、ムスリムのジム利用者は運動をタウバ（イスラムにおける悔悟と回帰の実践）を通じて解釈し、食事の乱れやトレーニングの欠席、身体的不快感を、意図の更新と道徳的自己修正の循環サイクルの一部として捉えていることが明らかになった。フィットネスの努力は誠実で謙虚かつ節度あるものとして認識された場合に正当性を獲得する一方、自撮りや身体変容の物語などの自己顕示的実践は道徳的に疑わしいものとなる。本研究は、宗教的意味体系が直線的な進歩ではなく繰り返される道徳的回帰を通じて持続性を維持することを示し、目標追求研究を拡張している。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70029" target="_blank" class="title">How storytelling modality affects transportation and storyteller persuasion</a></div>
+        <span class="date">2026-05-22</span>
+      </div>
+      <div class="authors">Anne Hamby, Rebecca Krause-Galoni, Adam Duhachek, Derek Rucker</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how communication modality (writing vs. speaking) affects storyteller self-persuasion, contrasting with prior audience-focused research. Through experimental studies, the authors find that storytellers are more transported and persuaded when writing rather than speaking their stories, which contradicts the pattern found for audiences. The key mechanism explaining this effect is structured thinking, which is facilitated more by writing than speaking. The study also reveals that story valence moderates this effect, with positive stories leading to more favorable evaluations and negative stories to less favorable ones, contributing new insights to narrative persuasion research.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、コミュニケーションの形態（書く vs. 話す）が語り手自身の自己説得にどのように影響するかを検討した。実験の結果、聴衆とは逆に、語り手は話すよりも書く方がより物語に没入し、説得されることが明らかになった。このメカニズムとして、書くことが構造化された思考を促進することが示された。さらに、物語の価値方向性（ポジティブ/ネガティブ）が調整変数として機能し、ポジティブな物語では好意的な評価が、ネガティブな物語では否定的な評価が強まることが判明した。本研究は、ナラティブ説得研究に新たな知見を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70027" target="_blank" class="title">Discount now or later? The effect of payment framing on consumer preferences for discount timing in periodic payments</a></div>
+        <span class="date">2026-05-13</span>
+      </div>
+      <div class="authors">Mijin Kwon, Song Oh Yoon</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how discount framing affects consumer preferences for the timing of discounts in subscription services. Through four main studies using online click-through behavior and experimental designs, the authors find that consumers prefer delayed discounts when the discount is expressed in the same unit as the recurring price (e.g., '$10, $10, $5'), because this identical framing creates a perception of a coherent improving sequence, leading to lower expectations of future prices. However, when discounts are framed differently (e.g., '50% off'), consumers revert to the standard preference for immediate discounts. This work contributes to pricing and temporal discounting literature by demonstrating that payment framing can reverse the typical preference for immediate benefits through sequence-continuation inferences.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、サブスクリプションサービスにおける割引のフレーミングが、消費者の割引タイミング選好にどう影響するかを検討した。4つの主要研究（オンラインクリック行動分析と実験）を通じて、割引が定期価格と同じ単位で表示される場合（例：「10ドル、10ドル、5ドル」）、消費者は遅延割引を好むことを発見した。これは同一フレーミングが支払いを一貫した改善系列として知覚させ、将来価格への期待を低下させるためである。一方、割引が異なる形式で提示される場合（例：「50%オフ」）、消費者は即時割引を好む標準的な選好に戻る。本研究は、支払いフレーミングが系列継続推論を通じて即時利益への選好を逆転させうることを示し、価格設定と時間割引の研究に貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70026" target="_blank" class="title">Effectively communicating uncertainty: The persuasive impact of different types of hedges</a></div>
+        <span class="date">2026-05-11</span>
+      </div>
+      <div class="authors">Demi Oba, Jonah Berger, Reihane Boghrati</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study examines how different types of hedging language (e.g., 'might,' 'probably,' 'I think') affect persuasion in consumer contexts. Using a multi-method approach combining experiments with machine learning analysis of millions of online reviews, the researchers found that hedges with personal perspective (vs. general) and those suggesting higher likelihood are more persuasive. The underlying mechanism is perceived confidence—personal and high-likelihood hedges signal greater communicator confidence, enhancing persuasion. The research contributes to marketing language literature by showing that hedging can protect communicators from backlash while maintaining persuasive impact, and that brands can leverage these effects through anthropomorphized agents.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、ヘッジ表現（「かもしれない」「おそらく」「私は思う」など）の種類が消費者文脈における説得効果にどのように影響するかを検討した。実験と数百万件のオンラインレビューの機械学習分析を組み合わせた多手法アプローチにより、個人的視点のヘッジ（一般的視点と比較して）および高い可能性を示唆するヘッジがより説得力を持つことが明らかになった。その背後にあるメカニズムは「知覚された自信」であり、個人的視点や高可能性のヘッジは発信者の自信を示唆し、説得力を高める。本研究はヘッジ表現が反発を防ぎつつ説得効果を維持できること、また擬人化されたエージェントを通じてブランドがこの効果を活用できることを示し、マーケティングにおける言語研究に貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70025" target="_blank" class="title">Human– <scp>AI</scp> partnerships: Living and working with <scp>AI</scp> Assistants, <scp>AI</scp> Agents, and <scp>AI</scp> Companions</a></div>
+        <span class="date">2026-04-16</span>
+      </div>
+      <div class="authors">Ripinka Koli Patil, Dan Hamilton Rice, Chris Janiszewski</div>
+      <div class="kwrow"><span class="kwbadge">AI</span><span class="kwbadge">artificial intelligence</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This conceptual paper examines how consumers interact with and form relationships with interactive AI technologies, proposing that increased AI functionality will shift consumer perceptions from viewing AI as static tools to long-term partners. The authors develop a theoretical taxonomy classifying human-AI partnerships into three categories: AI Assistants, AI Agents, and AI Companions, each with distinct profiles and relationship dynamics. The key insight is that future AI usage will be shaped not only by technological advancement but also by consumer responses to repeated AI interactions over time. This framework contributes to marketing and consumer psychology by providing a foundation for understanding the evolution of human-AI relationships and offering an extensive agenda for future research.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論文は、消費者がインタラクティブAI技術とどのように関わり、関係を形成するかを概念的に検討し、AI機能の向上により消費者がAIを単なる静的ツールではなく長期的なパートナーとして認識するようになると提唱している。著者らは、人間とAIのパートナーシップを「AIアシスタント」「AIエージェント」「AIコンパニオン」の3類型に分類する理論的タクソノミーを開発し、それぞれの特徴と関係性のダイナミクスを明らかにした。主要な知見として、将来のAI利用は技術の進歩だけでなく、消費者とAIとの繰り返しのインタラクションへの反応によっても形成されることを示している。本研究は、人間とAIの関係性の進化を理解するための枠組みを提供し、今後の研究課題を広範に提示することで、マーケティングおよび消費者心理学に貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70021" target="_blank" class="title">Stratified consumer activism: How socioeconomic status shapes boycott participation</a></div>
+        <span class="date">2026-03-13</span>
+      </div>
+      <div class="authors">Yan Vieites, Daniel Fernandes, Debora V. Thompson</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates whether socioeconomic status (SES) influences consumer boycott participation and explores the underlying psychological mechanisms. Using four studies combining cross-national surveys, experiments, and lab-in-the-field methods, the authors measured boycotting through self-reported intentions, past actions, and actual behaviors. The key finding reveals that low-SES consumers are less likely to participate in boycotts than high-SES consumers, a disparity driven by their reduced sense of control and lower beliefs that consumption can effectively bring about change. This research contributes to understanding stratified consumer activism and illuminates how socioeconomic conditions shape political consumption behaviors.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、社会経済的地位（SES）が消費者のボイコット参加に影響を与えるかどうか、またその心理的メカニズムを検討した。国際調査、実験、フィールド実験を含む4つの研究を通じて、自己報告による意図、過去の行動、実際の行動からボイコット参加を測定した。主要な発見として、低SES消費者は高SES消費者と比較してボイコットに参加する可能性が低く、これは統制感の低さと、消費が変化をもたらす有効な手段であるという信念の弱さによって説明されることが明らかになった。本研究は、消費者アクティビズムの階層化を理解し、社会経済的条件と消費者行動の複雑な関係に新たな知見を提供する。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70020" target="_blank" class="title">The politics of impact: How political ideology shapes perceptions of the environmental impact of individual actions</a></div>
+        <span class="date">2026-02-14</span>
+      </div>
+      <div class="authors">Aylin Cakanlar, Katherine White, Remi Trudel</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how political ideology shapes perceptions of the environmental impact of individual sustainable actions. Through seven studies, the authors find that conservatives perceive their sustainable behaviors as having less positive environmental impact than liberals do, which explains their lower engagement in such behaviors. This effect stems not only from climate change beliefs but also from the lower observed prevalence of sustainable behaviors within conservatives' in-groups. The research demonstrates that framing sustainable actions in health-related terms, emphasizing in-group prevalence, or explicitly communicating impact can increase conservatives' perceived impact and willingness to engage in sustainable behaviors, offering practical strategies for promoting sustainability across the political spectrum.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、政治的イデオロギーが個人の持続可能な行動の環境影響に対する認知にどのように影響するかを検討している。7つの研究を通じて、保守派はリベラル派と比較して自身の持続可能な行動の環境へのポジティブな影響をより低く認知し、これが持続可能な行動への関与の低さを予測することが明らかになった。この効果は気候変動に関する信念だけでなく、保守派の内集団における持続可能な行動の観察された普及率の低さにも起因している。持続可能な行動を健康関連の文脈で提示すること、内集団での普及を強調すること、または影響を明示的に伝えることで、保守派の影響認知と行動意図が向上することが示され、政治的立場を超えた持続可能な行動促進の実践的方策が提示された。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1002/jcpy.70016" target="_blank" class="title">From decision patience to process patience: A decision–process integration of the choice to wait and the experience of waiting</a></div>
+        <span class="date">2026-01-28</span>
+      </div>
+      <div class="authors">Selin A. Malkoc</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This commentary addresses the gap between two conceptualizations of consumer impatience: decision patience (choosing to wait for delayed rewards in intertemporal choice) and process patience (the emotional experience during waiting). Through theoretical integration, the author maps psychological drivers of intertemporal choice—including affective urges, cognitive representations, construal, subjective time perception, and future-self connectedness—onto Sweeny's Process Model of Patience. The key contribution is demonstrating where these two perspectives converge and diverge, proposing testable predictions about how choice patience and process patience can dissociate and how environmental cues may reduce uncertainty at the decision point while increasing impatience during the wait. This integration offers a more complete temporal model of impatience spanning from pre-decision through the entire waiting period.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論評は、消費者の忍耐に関する2つの概念化—異時点間選択における「待つことを選ぶ」意思決定忍耐と、待機中の感情体験である過程忍耐—の間のギャップに取り組んでいる。著者は理論的統合を通じて、異時点間選択の心理的要因（感情的衝動、認知的表象、解釈レベル、主観的時間知覚、将来の自己との連結性）をSweeneyの忍耐の過程モデルにマッピングした。主要な貢献は、両視点の収束点と乖離点を明らかにし、選択忍耐と過程忍耐がいかに解離しうるか、また環境的手がかりが意思決定時の不確実性を低減しつつ待機中の焦りを高めうるかについて検証可能な予測を提示した点である。この統合により、意思決定前から待機期間全体を包括するより完全な忍耐の時間モデルが提唱された。</p></div>
+      </div>
+    </div></div><div id="panel-JMR" class="panel"><div class="journal-title" style="border-left:4px solid #993C1D;padding-left:12px;margin-bottom:16px"><strong>Journal of Marketing Research</strong></div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261463518" target="_blank" class="title">EXPRESS: Consumer Interactions and Peer Effects in Socially-Connected Digital Products</a></div>
+        <span class="date">2026-06-16</span>
+      </div>
+      <div class="authors">Yijun Chen, Yulia Nevskaya</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This paper investigates peer effects in user churn on a socially-connected digital platform and examines how firms can leverage network structures for customer relationship management. Using data from a massively-multiplayer online game, the authors develop a two-stage structural model that captures endogenous network formation and peer effects in churn, correcting for endogeneity bias through unobserved gamer heterogeneity. Key findings reveal that peer effects substantially amplify intervention effectiveness with an average social multiplier of 2.48, and that users vary more in their influence on peers' retention than in their own retention likelihood. The study contributes to CRM literature by demonstrating that a user's network value is primarily driven by network centrality measures rather than individual characteristics, offering actionable insights for targeted retention strategies.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論文は、ソーシャル機能を持つデジタルプラットフォームにおけるユーザー離脱のピア効果を調査し、企業がネットワーク構造を顧客関係管理（CRM）に活用する方法を検討している。大規模マルチプレイヤーオンラインゲームのデータを用い、内生的なネットワーク形成とピア効果を捉える2段階構造モデルを構築し、観測されないゲーマーの異質性を通じて内生性バイアスを補正した。主要な発見として、ピア効果が介入効果を大幅に増幅させ（平均ソーシャル乗数2.48）、ユーザーは自身の継続可能性よりも他者の継続に与える影響において大きな差異があることが示された。本研究は、ユーザーのネットワーク価値が個人特性よりもネットワーク中心性指標によって主に決定されることを明らかにし、CRM分野に新たな知見を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261460880" target="_blank" class="title">EXPRESS: The Three-dimensional Effect in Logo Design: When Depth Cues Improve Brand Purchase Likelihood</a></div>
+        <span class="date">2026-06-05</span>
+      </div>
+      <div class="authors">Taku Togawa, Naoto Onzo</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how three-dimensional (3D) logo design affects consumer purchase likelihood compared to two-dimensional (2D) logos. Through multiple field, lab, and online studies, the authors find that 3D logos increase brand purchase likelihood because depth cues evoke mental representations of tangible forms, enhancing perceived logo realism and brand trust. However, these benefits are conditional: 3D logos are more effective in visually simple environments and for concrete offerings with high tangible dominance, while providing little advantage in complex environments or for abstract offerings. This study contributes to logo design literature by offering a nuanced theoretical framework for understanding when depth cues improve consumer responses and providing practical guidance for 3D logo adoption decisions.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、3次元（3D）ロゴデザインが2次元（2D）ロゴと比較して消費者の購買意向にどのような影響を与えるかを検討している。フィールド調査、実験室実験、オンライン調査を通じて、3Dロゴは奥行き手がかりが有形物の心的表象を喚起し、ロゴのリアリズム知覚とブランド信頼を高めることで購買意向を向上させることを明らかにした。ただし、この効果は条件付きであり、視覚的にシンプルな環境や有形性の高い具体的な製品・サービスにおいて3Dロゴの効果が発揮される一方、複雑な環境や抽象的な提供物では優位性が見られなかった。本研究は、奥行き手がかりが消費者反応を改善する条件を特定することで、ロゴの3次元性に関する精緻な理論的枠組みと実務的指針を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261458290" target="_blank" class="title">EXPRESS: Modeling Dynamic Consumer Preferences from Few-shot Data: A Meta-Learning Approach</a></div>
+        <span class="date">2026-06-03</span>
+      </div>
+      <div class="authors">Mingzhang Yin, Khaled Boughanmi, Anirban Mukherjee</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This paper addresses the challenge of capturing and adapting to customer preferences when individual-level interaction data is limited, such as with new customers or short sessions. The authors propose Meta-Temporal Processes (MetaTP), a meta-learning framework that combines Transformer-based architecture to model sequential consumption patterns and enables personalization from few observations by transferring learned structure across customers. Empirical results on digital product consumption demonstrate that MetaTP outperforms benchmark methods in few-shot prediction tasks and reveals interpretable patterns of preference evolution. The contribution lies in providing firms with a scalable approach to optimize personalized recommendations during the 'lukewarm' customer journey stage, including product sequencing and session completion strategies.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論文は、新規顧客や短期セッションなど個人レベルのデータが限られた状況で、顧客の嗜好を迅速に把握・適応するという課題に取り組んでいる。著者らは、Transformerベースのアーキテクチャを統合したメタ学習フレームワーク「Meta-Temporal Processes（MetaTP）」を提案し、少数の観測データから顧客間で共有構造を転移させることでスケーラブルなパーソナライゼーションを実現している。デジタル製品の逐次消費データを用いた実証分析では、MetaTPが少数ショット予測において既存手法を上回る性能を示し、嗜好変化の解釈可能なパターンを明らかにした。本研究の貢献は、顧客ジャーニーの「ぬるま湯段階」において、製品の推薦順序やセッション完了戦略を含むパーソナライズされたレコメンデーションの最適化手法を企業に提供した点にある。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261457045" target="_blank" class="title">EXPRESS: Haunted by a Bad Review: The Afterlife of Reading (Negative) Reviews in Consumer Experience</a></div>
+        <span class="date">2026-05-26</span>
+      </div>
+      <div class="authors">Dena Yadin, Nira Munichor, Elanor F. Williams, Inbal Stockheim</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates whether product reviews affect not only purchase decisions but also the actual consumption experience itself. Across five studies using real consumer-generated reviews and product interactions, the authors found an asymmetrical assimilation effect: exposure to negative reviews before consumption leads to more negative product experiences, while positive reviews do not significantly enhance the experience. This effect occurs because negative reviews increase the salience of negative product attributes during consumption, though forewarning consumers or prompting independent opinion formation can mitigate it. The findings extend our understanding of review influence beyond the point of purchase and offer practical implications for marketers managing consumer experiences.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、製品レビューが購買決定だけでなく、実際の消費体験にも影響を与えるかどうかを検証した。実際の消費者レビューと製品体験を用いた5つの研究を通じて、非対称的な同化効果が確認された：消費前にネガティブなレビューを読むと製品体験がよりネガティブになる一方、ポジティブなレビューは消費体験に有意な影響を与えなかった。この効果は、ネガティブなレビューが消費中に製品のネガティブな属性の顕著性を高めることで生じるが、事前警告や独自の意見形成を促すことで軽減可能である。本研究は、レビューの影響が購買時点を超えて及ぶことを示し、マーケターにとって重要な実務的示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261457044" target="_blank" class="title">EXPRESS: Do fMRI Data Improve Predictions of Product Adoption by Store Managers and Sales per Store of Consumer Packaged Goods?</a></div>
+        <span class="date">2026-05-26</span>
+      </div>
+      <div class="authors">Paulo Albuquerque, Anita Tusche, Márton Varga, Nadine R. Gier-Reinartz, Bernd Weber, et al.</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates whether fMRI data can improve predictions of store manager adoption decisions and consumer sales of consumer packaged goods beyond traditional market and survey data. Using data from a large retail chain combined with survey responses and fMRI signals, the authors applied decision tree and LASSO regression methods to evaluate predictive accuracy. The key finding is that fMRI data significantly enhance sales forecasts, especially for innovative products, while survey-based measures are more effective for predicting store manager adoption. The research contributes a framework for evaluating the economic return on investment of neuroforecasting tools, offering practical guidance for product launch strategies and data investment decisions.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、fMRIデータが従来の市場データや調査データを超えて、小売店マネージャーの採用決定および消費財の消費者売上予測を改善できるかを検証した。大規模小売チェーンのデータに調査回答とfMRI信号を組み合わせ、決定木およびLASSOによる予測分析を実施した。主要な発見として、fMRIデータは特に革新的な製品の売上予測精度を向上させる一方、調査データは店舗マネージャーの採用予測により有効であることが示された。本研究は、ニューロ予測ツールの投資対効果を評価するフレームワークを提示し、製品発売戦略やデータ投資の意思決定に実践的な示唆を与える点で貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261455302" target="_blank" class="title">EXPRESS: Where Should Firms Implement Differential Privacy in Targeting? Implications for Profitability</a></div>
+        <span class="date">2026-05-18</span>
+      </div>
+      <div class="authors">Gilian R. Ponte, Tom Boot, Thomas Reutterer, Jaap E. Wieringa</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates where firms should implement differential privacy within their targeting workflow to balance privacy protection and profitability. Using a large-scale field experiment with 747,975 customers and simulations, the authors compare two novel targeting strategies: implementing differential privacy during model training versus at the targeting-decision stage. The key finding reveals that the decision-stage implementation yields approximately fivefold higher profits than the training-stage approach while maintaining strong privacy protection. The research contributes by deriving expected profit formulas for given privacy risk levels and introducing a privacy elasticity measure, providing practical guidelines for firms and policymakers on privacy-preserving targeting.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、企業がターゲティングワークフローのどの段階で差分プライバシーを実装すべきかを、収益性とプライバシー保護の両立の観点から検討している。747,975人の顧客を対象とした大規模フィールド実験とシミュレーションを用いて、モデル訓練段階での実装とターゲティング意思決定段階での実装という2つの新規戦略を比較した。主要な発見として、意思決定段階での実装は訓練段階での実装と比較して約5倍の利益を生み出しつつ、強力なプライバシー保護を維持できることが示された。本研究は、特定のプライバシーリスク水準に対する期待利益の導出およびターゲティング利益のプライバシー弾力性の提示により、企業と政策立案者に実践的な指針を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261452611" target="_blank" class="title">EXPRESS: Ad Intensity Policies and Content Provision on Revenue-Sharing Content Platforms</a></div>
+        <span class="date">2026-05-11</span>
+      </div>
+      <div class="authors">Yuansheng Wei, Lin Tian, Baojun Jiang</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates how online content platforms should design ad intensity policies to optimize creator incentives, content quality, and platform profitability. Using an analytical model with one platform and two competing content creators, the authors compare three policies: differentiated advertising (DA), uniform advertising (UA), and creator-set advertising (CA). Under symmetric creators and quality-independent marginal ad revenue, UA outperforms DA by intensifying quality competition, leading to higher content quality and platform profit, while CA weakens content investment incentives. The study contributes by demonstrating that no single ad intensity policy is universally optimal, as relaxing benchmark assumptions such as creator asymmetry can reverse UA's advantage.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、オンラインコンテンツプラットフォームが広告強度ポリシーをどのように設計すべきかを、クリエイターのインセンティブ、コンテンツ品質、プラットフォーム収益性の観点から検討している。1つのプラットフォームと2人の競合するコンテンツクリエイターを含む分析モデルを用いて、差別化広告（DA）、均一広告（UA）、クリエイター設定広告（CA）の3つのポリシーを比較分析した。対称的なクリエイターと品質非依存の限界広告収益を仮定した場合、UAは品質競争を激化させ、DAよりも高いコンテンツ品質とプラットフォーム利益をもたらす一方、CAはコンテンツ投資インセンティブを弱める。クリエイターの非対称性などの仮定を緩和するとUAの優位性が逆転しうることを示し、単一の広告強度ポリシーが普遍的に最適ではないことを明らかにした点が本研究の貢献である。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261450925" target="_blank" class="title">EXPRESS: Picture This: How Review Valence Shapes the Quality and Helpfulness of User-Generated Photos</a></div>
+        <span class="date">2026-05-04</span>
+      </div>
+      <div class="authors">Jiani Xue, Shiri Melumad</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This paper investigates how review valence (positive vs. negative) influences the quality of user-generated photos in online reviews. Through six studies combining controlled experiments, laboratory observations (N = 4,218), and field analyses of Amazon and Yelp reviews (N = 669,937), the authors demonstrate that reviewers invest more creative effort when photographing products or services they feel positively about, resulting in higher-quality images. These higher-quality photos are perceived as more helpful by observers because they are easier to process visually and generate greater trust in the reviewer. The findings contribute to understanding how visual content is produced and evaluated in online marketplaces by identifying review valence as a key driver of creative effort in user-generated photography.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、オンラインレビューにおけるレビューの感情価（ポジティブ vs. ネガティブ）がユーザー生成写真の品質にどのように影響するかを検討した。統制実験、実験室観察研究（N = 4,218）、およびAmazonとYelpのレビューのフィールド分析（N = 669,937）を含む6つの研究を通じて、レビュアーはポジティブに感じる製品やサービスを撮影する際により多くの創造的努力を投入し、その結果としてより高品質な写真が生成されることを実証した。これらの高品質な写真は、視覚的に処理しやすく、レビュアーへの信頼を高めるため、閲覧者にとってより有用と知覚される。本研究は、レビューの感情価がユーザー生成写真における創造的努力の駆動要因であることを特定し、オンラインマーケットプレイスにおけるビジュアルコンテンツの生成と評価に関する知見を進展させた。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261446905" target="_blank" class="title">EXPRESS: A More Creative World Is a More Sustainable One: How to Increase Length of Product Usage through Creativity and Emotional Attachment</a></div>
+        <span class="date">2026-04-17</span>
+      </div>
+      <div class="authors">Ludovica Cesareo, Cesare Amatulli, Alessandro M. Peluso, Matteo De Angelis</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates whether product creativity (defined as high novelty and adequate appropriateness) can increase length of product usage (LPU), thereby promoting sustainable consumption. Through seven pre-registered studies using various products, populations, and creativity manipulations, the authors demonstrate that higher product creativity leads to longer intended product usage by strengthening consumers' emotional attachment to products. The effect is particularly pronounced for non-owners compared to owners, and for mass-market products compared to luxury products. This work contributes to sustainability literature by highlighting intangible product characteristics as antecedents of product durability, offering practical implications for companies seeking to reduce overconsumption.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、製品の創造性（高い新規性と適切な妥当性）が製品使用期間（LPU）を延長し、持続可能な消費を促進できるかを検証した。異なる製品、母集団、創造性操作を用いた7つの事前登録研究を通じて、製品の創造性が高いほど消費者の感情的愛着が強まり、結果として製品使用期間が延長されることを実証した。この効果は、所有者よりも非所有者において、また高級品よりも大衆向け製品においてより顕著であった。本研究は、製品耐久性の先行要因として無形の製品特性を強調することで、持続可能性研究に貢献し、過剰消費削減を目指す企業への実践的示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261445841" target="_blank" class="title">EXPRESS: Separating the Artist from the Art: Social Media Boycotts, Platform Sanctions, and Music Consumption</a></div>
+        <span class="date">2026-04-13</span>
+      </div>
+      <div class="authors">Daniel Winkler, Nils Wlömert, Jūra Liaukonytė</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This paper examines how consumer demand for an artist's music changes when social media campaigns call for boycotts following misconduct. Using R. Kelly's case and an identification strategy that leverages variation in song-removal status and geographic demand, the authors distinguish between supply-side (platform visibility) and demand-side (intentional boycott) effects. The key finding reveals that decreased music consumption is primarily driven by reduced platform visibility through playlist removal rather than intentional consumer boycotts, and media coverage actually has promotional effects on demand. Additional analysis of Morgan Wallen, Rammstein, and Diddy cases reinforces that scandals may inadvertently increase music demand when platforms do not impose sanctions.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論文は、アーティストの不祥事に対してソーシャルメディア上でボイコットが呼びかけられた際、音楽消費がどのように変化するかを検証している。R・ケリーの事例を用い、楽曲のプレイリスト削除状況と地域別需要の差異を活用した識別戦略により、プラットフォームの可視性低下（供給側要因）と消費者の意図的なボイコット（需要側要因）の相対的影響を分離した。主要な発見として、音楽消費の減少は消費者の意図的なボイコットではなく、プレイリスト削除によるプラットフォーム可視性の低下が主因であり、メディア報道やボイコットの呼びかけはむしろ需要を促進する効果を持つことが明らかになった。モーガン・ウォーレン、ラムシュタイン、ディディの事例分析でも、プラットフォーム制裁がない場合はスキャンダルが需要に悪影響を与えないことが確認された。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261444259" target="_blank" class="title">EXPRESS: Does Puffery Sell? Evidence from Airbnb</a></div>
+        <span class="date">2026-04-08</span>
+      </div>
+      <div class="authors">Michael Thomas</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates whether puffery (positive but vague quality claims) influences consumer behavior on Airbnb. Using a hazard model that exploits within-listing changes to hosts' property descriptions, the research finds that adding a single puffed claim increases bookings by approximately 0.7 days per year, with minimal negative impact on ratings or review sentiment (less than 0.03 standard deviations). The findings challenge the legal assumption that consumers adequately discount puffed claims while supporting continued legal protection since puffery does not reduce consumer satisfaction. This research contributes to marketing and consumer protection literature by providing causal evidence on puffery's effectiveness in a real marketplace setting.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、Airbnbにおいて「パファリー」（肯定的だが曖昧な品質主張）が消費者行動に影響を与えるかを検証した。物件説明文の変更を利用したハザードモデル分析の結果、パファリーを1つ追加すると予約が年間約0.7日増加する一方、評価やレビュー感情への悪影響は0.03標準偏差以下と限定的であることが判明した。これらの知見は、消費者がパファリーを十分に割り引いて解釈するという法的前提に疑問を投げかけつつも、消費者満足度を低下させないという点でパファリーの法的保護の継続を支持する。本研究は、実際の市場環境におけるパファリーの効果について因果的証拠を提供し、マーケティングおよび消費者保護の議論に貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261440816" target="_blank" class="title">EXPRESS: Death or Muerte? Effects of Sales Language Use on the Consumption of Death-Related Products and Services</a></div>
+        <span class="date">2026-03-27</span>
+      </div>
+      <div class="authors">Lexie Lan Huang, Xueni Li, Kimmy Wa Chan</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates whether using consumers' second language (vs. native language) in sales communications can increase consumption of death-related products and services (DRPS) such as life insurance and funeral services. Through eight studies including two field experiments and an eye-tracking study, the authors find that presenting DRPS messages in consumers' second language reduces fear of death by creating greater psychological distance, thereby increasing actual purchases. The effect is moderated by perceived control over death, transcendence features, and required customer participation levels. This study contributes novel insights to terror management theory and provides practical language-based strategies for marketers and policymakers to encourage proactive DRPS decision-making.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、生命保険や葬儀サービスなどの死関連商品・サービス（DRPS）のセールスコミュニケーションにおいて、消費者の第二言語（母語ではなく）を使用することが購買行動を促進するかを検証した。2つのフィールド実験とアイトラッキング調査を含む8つの研究を通じて、第二言語でDRPSメッセージを提示すると、心理的距離が拡大して死への恐怖が軽減され、実際の購買が増加することが明らかになった。この効果は、死に対するコントロール認知が高い場合や、死後の超越性を強調する場合に弱まり、中程度の顧客参加を必要とする場合に強まることも示された。本研究は恐怖管理理論に新たな知見を加え、消費者にDRPSの早期検討を促すための言語ベースの実践的戦略を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261440557" target="_blank" class="title">EXPRESS: Vocal Similarity, Timbre, and Persuasion in Consumer-Spokesperson Interactions</a></div>
+        <span class="date">2026-03-25</span>
+      </div>
+      <div class="authors">Na Kyong Hyun, Michael Lowe, Aradhna Krishna</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates whether similarity in vocal timbre between consumers and spokespersons influences persuasion. Using machine learning to measure vocal similarity through mel-frequency cepstral coefficients (MFCCs), the researchers analyzed 7,002 Shark Tank entrepreneur-investor interactions and 2,091 Kickstarter campaigns, complemented by four laboratory experiments. Results demonstrate that vocal similarity increases persuasion, investment likelihood, and fundraising success, with effects mediated by increased trust in spokesperson competence and attenuated when external credibility signals are present. The research contributes new vocal analytics tools and extends similarity-persuasion theory to the auditory domain of consumer-spokesperson interactions.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、消費者とスポークスパーソン間の声の音色（ティンブル）の類似性が説得に影響を与えるかを検証した。メル周波数ケプストラム係数（MFCC）を用いた機械学習により声の類似性を客観的に測定し、Shark Tankの7,002件の起業家-投資家ペアと2,091件のKickstarterキャンペーン、および4つの実験室実験を分析した。その結果、声の類似性が説得効果、投資可能性、資金調達成功率を高めることが示され、この効果はスポークスパーソンの能力への信頼を介して生じ、外部の信頼性シグナルが存在する場合には減衰することが明らかになった。本研究は声の分析ツールを新たに提供し、類似性-説得理論を消費者-スポークスパーソン間相互作用の聴覚領域へ拡張した点で貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261434156" target="_blank" class="title">A Vision Editorial for the 2026–2029 <i>JMR</i> Team</a></div>
+        <span class="date">2026-03-25</span>
+      </div>
+      <div class="authors">Raphael Thomadsen</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This article presents the editorial vision for the Journal of Marketing Research (JMR) for the 2026-2029 editorial term. As the content is currently under embargo, specific details about the research priorities, methodological directions, and strategic initiatives outlined by the incoming editorial team cannot be summarized. The editorial likely discusses the journal's future direction, submission guidelines, and areas of focus for marketing research scholarship during this period.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論文は、Journal of Marketing Research (JMR) の2026年から2029年の編集期間における編集方針ビジョンを示す論説である。現在エンバーゴ（公開制限）期間中であるため、新編集チームが提示する研究の優先事項、方法論的方向性、戦略的イニシアチブの詳細については要約することができない。本編集論説では、この期間におけるジャーナルの将来的な方向性、投稿ガイドライン、およびマーケティング研究の重点領域について論じられていると推察される。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261439058" target="_blank" class="title">EXPRESS: Communication Patterns in Joint Decision-Making</a></div>
+        <span class="date">2026-03-24</span>
+      </div>
+      <div class="authors">KELLEY GULLO WIGHT, HOLLY S. HOWE, DANIELLE J. BRICK, GAVAN J. FITZSIMONS</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how people communicate during joint decision-making processes, addressing a gap in understanding dyadic communication patterns. Using nearly 200 shop-along observations, the authors identified four distinct communication patterns: coordination (inquiry and disclosure), contrast (persuasion and devil's advocate), build, and one-sided. Quantitative modeling revealed that decision partners navigate decisions non-linearly and that communication patterns affect immediate satisfaction outcomes. The study contributes a taxonomy integrating cross-disciplinary perspectives on dyadic communication to facilitate future interdisciplinary research.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、共同意思決定における人々のコミュニケーション方法を調査し、二者間コミュニケーションパターンの理解における研究ギャップに取り組んでいる。約200件の買い物同行観察を分析した結果、4つの異なるコミュニケーションパターンが特定された：調整（質問と開示）、対比（説得と反対意見の提示）、構築、一方的発言である。定量的モデリングにより、意思決定パートナーは非線形に意思決定を進め、コミュニケーションパターンが即時的な満足度に影響することが明らかになった。本研究は、二者間コミュニケーションに関する分野横断的な分類法を構築し、学際的研究の促進に貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261435578" target="_blank" class="title">EXPRESS: Measuring Heterogeneity in TV Advertising Elasticities: Evidence from 135 Retail and Restaurant Brands</a></div>
+        <span class="date">2026-03-12</span>
+      </div>
+      <div class="authors">Samsun Knight, Tsung-Yiou Hsieh, Yakov Bart</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates the heterogeneity of TV advertising effectiveness across store characteristics and advertising levels using a large-scale panel of 135 US retail and restaurant brands. The authors find significant heterogeneity in TV advertising elasticity for over 93% of brands, yet firms' actual ad allocations follow simple heuristics rather than exploiting this heterogeneity—overinvesting in dense, high-income markets while underinvesting in areas with high concentrations of college-educated residents. The research demonstrates that identical-budget reallocations leveraging this heterogeneity could improve ad lift by a median of 2.35 percentage points and generate tens of millions in additional revenue, with 14-16% of brands with negative ROI potentially achieving positive ROI. This study contributes to advertising effectiveness literature by providing large-scale empirical evidence of suboptimal ad allocation practices and quantifying the substantial financial gains from heterogeneity-based reallocation strategies.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、米国の小売・レストラン135ブランドの大規模パネルデータを用いて、店舗特性や広告水準によるテレビ広告効果の異質性を分析した。93%以上のブランドでテレビ広告弾力性に有意な異質性が確認されたが、企業の実際の広告配分はこの異質性を活用せず、高収益地域への広告投下など単純なヒューリスティックに従い、人口密度や所得の高い市場に過剰投資する一方、大卒者比率の高い市場への投資が不足していることが判明した。同一予算での再配分により広告効果を中央値で2.35ポイント改善し、数千万ドルの追加収益が見込まれ、ROIが負のブランドの14〜16%が正のROIを達成可能であることを示した。本研究は、広告配分の非効率性を大規模実証データで明らかにし、異質性を活用した再配分戦略の経済的価値を定量化した点で貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261433457" target="_blank" class="title">EXPRESS: Increasing App Engagement Behaviors via Goal-Enabling Technology Features: The Role of Goal Difficulty Dimensions</a></div>
+        <span class="date">2026-03-04</span>
+      </div>
+      <div class="authors">Jake An, André Bonfrer, Christine Eckert</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study examines how the difficulty of goals selected during goal-enabling technology feature (GETF) adoption affects user engagement and retention in mobile apps. Using behavioral data from an investment app combined with hierarchical modeling, staggered synthetic control, instrumental variable regression, and a field experiment, the authors address self-selection and endogeneity concerns. The results reveal that users who set moderately challenging goals and subgoals significantly increase in-app investment actions, with higher post-adoption engagement predicting improved one-year retention, while a field experiment confirms the causal effect of subgoal difficulty. This research contributes novel empirical evidence on optimal goal-difficulty levels for sustained app engagement and offers practical guidance for marketing managers to personalize goal-setting features.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、モバイルアプリにおける目標設定支援技術機能（GETF）採用時に選択される目標の難易度が、ユーザーのエンゲージメントと継続利用にどのように影響するかを検証した。投資アプリの行動データを用い、階層モデル、時差付き合成コントロール法、操作変数回帰、およびフィールド実験により自己選択とエンドジェネイティの問題に対処した。その結果、適度に挑戦的な目標とサブ目標を設定したユーザーはアプリ内投資行動を有意に増加させ、採用後の高いエンゲージメントが1年後の継続利用を予測することが明らかになった。本研究は、アプリエンゲージメントを促進する最適な目標難易度に関する新たな実証的知見を提供し、マーケティング実務への示唆を与えている。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261432198" target="_blank" class="title">EXPRESS: How Effective Is Suggested Pricing?: Experimental Evidence from an E-Commerce Platform</a></div>
+        <span class="date">2026-03-01</span>
+      </div>
+      <div class="authors">Jessica Fong, Puneet Manchanda, Yu Song</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates how platform-suggested prices affect sellers' pricing decisions and sales outcomes on e-commerce platforms. Through a field experiment conducted with Mercari, a peer-to-peer marketplace, the authors manipulated whether sellers received suggested prices and the suggested price levels. Key findings reveal that a 30% change in suggested prices leads to a 5% change in listing prices, with stronger effects for new sellers and used items; lower suggested prices improve both sale probability and seller revenue. The research contributes to understanding how platforms can effectively guide seller behavior while preserving sellers' ability to utilize their private information.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、プラットフォームが提示する推奨価格が売り手の価格設定と販売成果にどのような影響を与えるかを検証した。P2P型ECプラットフォームであるメルカリと協力し、推奨価格の有無およびその価格水準を操作するフィールド実験を実施した。主要な発見として、推奨価格が30%変化すると出品価格が同方向に5%変化し、この効果は新規出品者や中古品においてより顕著であること、また低い推奨価格は販売確率と売り手収益の両方を改善することが明らかになった。本研究は、プラットフォームが売り手の私的情報を活かしつつ効果的に価格設定を誘導できることを示し、プラットフォーム設計への実践的示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261432622" target="_blank" class="title">EXPRESS: Less is More (Natural): The Effect of Ingredient Quantity Framing on Consumer Preferences</a></div>
+        <span class="date">2026-03-01</span>
+      </div>
+      <div class="authors">Michelle Yoosun Kim, Rachel Gershon, SYDNEY E. SCOTT, Daniella Kupor, Tianqi Chen, et al.</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research examines whether and how ingredient quantity information influences consumer food choices. Through two preregistered pilot studies, seven preregistered experiments, and ten supplementary experiments, the authors find that consumers generally prefer products framed as containing fewer ingredients because fewer ingredients signal less processing and greater naturalness. However, when other consumption goals such as seeking indulgence or uniqueness become salient, products with more ingredients can become preferred. This work contributes to marketing literature by revealing how ingredient quantity framing biases consumer perceptions and provides actionable guidance for marketers in product positioning.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、原材料の数量情報が消費者の食品選択にどのような影響を与えるかを検討している。2つの事前登録パイロット研究、7つの事前登録実験、および10の補足実験を通じて、消費者は一般的に原材料が少ないと表示された製品を好むことが明らかになった。これは、原材料が少ないほど加工度が低く、より自然であると知覚されるためである。ただし、贅沢さや独自性を求めるなど他の消費目標が重要になると、原材料が多い製品が好まれる場合もある。本研究は、原材料数量のフレーミングが消費者の知覚と日常的な食品選択にバイアスを与えるメカニズムを解明し、マーケターへの実践的示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261427475" target="_blank" class="title">EXPRESS: Market Effects of Inattention: Theory and Evidence from Left-Digit Bias</a></div>
+        <span class="date">2026-02-16</span>
+      </div>
+      <div class="authors">Andreas Kraft, Raghunath Singh Rao</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study examines whether and how firms can profit from consumer inattention, specifically left-digit bias in odometer readings, in the used car market. Using a dataset of millions of automobile transactions over seven years, the authors theoretically model and empirically test how dealerships exploit this cognitive bias compared to private sellers. The findings reveal that dealerships strategically transact with more left-digit-biased consumers, sell more vehicles with odometer readings just below round numbers, achieve faster sales, and extract higher profit margins. This research contributes to understanding how market intermediaries can systematically 'skim' behaviorally biased consumers and capture meaningful surplus in decentralized markets.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、中古車市場において企業が消費者の不注意、特に走行距離計の左桁バイアスからどの程度・どのような条件で利益を得られるかを検証している。7年間にわたる数百万件の自動車取引データを用いて、理論モデルの構築と実証分析を行った。その結果、ディーラーは個人売買と比較して、左桁バイアスを持つ消費者とより多く取引し、走行距離がキリの良い数字を下回る車両をより多く・より早く販売し、高い利益率を得ていることが明らかになった。本研究は、市場仲介者が特定の行動バイアスを持つ消費者を選択的に取り込み、意味のある余剰を獲得できることを示した点で貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261423540" target="_blank" class="title">EXPRESS: Welfare Implications of Democratization in Content Creation: Generative AI and Beyond</a></div>
+        <span class="date">2026-01-29</span>
+      </div>
+      <div class="authors">Tianxin Zou, Zijun Shi, Yue Wu</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This article is currently under embargo and the full content is not available for summarization. The title suggests the research examines the welfare implications of democratizing content creation through generative AI technologies. Without access to the full text, specific details about the research question, methodology, key findings, and contributions cannot be determined. The paper appears to be forthcoming in the Journal of Marketing Research (JMR).</p></div>
+        <div class="block"><span class="tag">JA</span><p>この論文は現在エンバーゴ（公開制限）期間中であり、全文にアクセスできないため要約を作成することができません。タイトルから、生成AIなどの技術によるコンテンツ作成の民主化が社会厚生に与える影響を検討する研究であると推測されます。Journal of Marketing Research (JMR)に掲載予定の論文ですが、具体的な研究課題、方法論、主要な発見、貢献については全文公開後に確認する必要があります。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1177/00222437261423538" target="_blank" class="title">EXPRESS: Consumers Prefer that Corporations Donate Periodically</a></div>
+        <span class="date">2026-01-29</span>
+      </div>
+      <div class="authors">Alexander Park, Yanyi Leng, Fausto J. Gonzalez, Jared Watson, Francesca Valsesia, et al.</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how firms should communicate their corporate social responsibility (CSR) efforts, specifically whether periodic donations are more effective than equivalent lump-sum contributions. Through seven preregistered studies including two large field studies and five online experiments, the authors find that periodic donations (e.g., $20,000/month for 12 months) improve company outcomes such as reputation, customer engagement, and purchase likelihood compared to equivalent aggregate donations ($240,000/year). The benefits operate through two pathways: periodic donations signal consistent authentic prosocial motivation, which directly improves donor evaluations and also increases perceived donation impact. This research contributes to CSR communication strategy by highlighting consumers' sensitivity to consistency cues and the central role of perceived authentic motivation in granting charitable credit.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、企業がCSR活動をどのように伝えるべきか、特に定期的な寄付が一括寄付より効果的かを検証している。2つの大規模フィールド実験と5つのオンライン実験を含む7つの事前登録研究を通じて、定期的な寄付（例：月2万ドルを12ヶ月）は同額の一括寄付（例：年24万ドル）と比較して、企業の評判、顧客エンゲージメント、購買意向を向上させることが明らかになった。この効果は2つの経路で作用する：定期的寄付の一貫性が真正な親社会的動機の判断を高め、それが直接的に寄付者評価を向上させるとともに、寄付のインパクト認知も高める。本研究は、消費者が一貫性の手がかりに敏感であること、およびCSRにおける真正な動機認知の重要性を示し、CSRコミュニケーション戦略に貢献している。</p></div>
+      </div>
+    </div></div><div id="panel-JCR" class="panel"><div class="journal-title" style="border-left:4px solid #534AB7;padding-left:12px;margin-bottom:16px"><strong>Journal of Consumer Research</strong></div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag015" target="_blank" class="title">Defining and Understanding Vintage</a></div>
+        <span class="date">2026-06-15</span>
+      </div>
+      <div class="authors">Maren Hoff, Silvia Bellezza</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research addresses the question of what defines vintage products and how they differ from related concepts such as antique, secondhand, and retro items. Using a multimethod approach including interviews, surveys, experiments, and analysis of over 2,000 vintage products across 16 categories, the authors develop a unified framework identifying vintage as a composite formative construct determined by three dimensions: moderate age, iconicity, and scarcity. The key findings reveal that vintage products deliver personal benefits (heritage connection, authenticity), social benefits (coolness), and sustainability benefits (environmental responsibility), and that emphasizing these three dimensions enhances consumer responses more effectively for vintage than for new products. This research contributes a theoretical foundation for understanding vintage consumption and provides practical guidance for identifying and positioning vintage products in the marketplace.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、ヴィンテージ製品とは何か、またアンティーク、中古品、レトロといった関連概念とどのように異なるのかという問いに取り組んでいる。インタビュー、調査、実験、16カテゴリにわたる2,000点以上のヴィンテージ製品の分析を含むマルチメソッドアプローチを用いて、ヴィンテージを「適度な古さ」「象徴性（アイコニシティ）」「希少性」の3次元によって規定される複合的形成構成概念として定義する統一的フレームワークを開発した。主要な発見として、ヴィンテージ製品は個人的便益（遺産とのつながり、本物らしさ）、社会的便益（クールさ）、持続可能性の便益（環境責任）をもたらし、これら3次元を強調することで新製品よりも消費者反応が高まることが示された。本研究はヴィンテージ消費を理解するための理論的基盤を提供し、市場におけるヴィンテージ製品の識別とポジショニングに実践的な指針を与える貢献をしている。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag014" target="_blank" class="title">Digital Singularization: The Socio-Technical Production of Uniqueness</a></div>
+        <span class="date">2026-05-28</span>
+      </div>
+      <div class="authors">Domen Bajde, Konstantinos Lianidis, Mikkel Nøjgaard</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates how digital goods are singularized (valorized as unique) in digital markets, addressing a gap in understanding digital singularization processes. Using a multimethod qualitative approach inspired by Reckwitz's sociology of singularities, the researchers examined a market for singularized digital goods. The study identifies four vectors of digital singularization, reveals variable ways technology mediates this process, and uncovers multiple tensions inherent in digital singularization. Key contributions include theorizing singularization as an inherently precarious, socio-technical process and advancing understanding of digital possession, value creation, and contemporary singularity markets.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、デジタル財がデジタル市場においてどのように特異化（ユニークなものとして価値づけ）されるかを探究し、デジタル特異化プロセスの理解における空白を埋めることを目的としている。Reckwitzの特異性の社会学に着想を得たマルチメソッド質的研究により、特異化されたデジタル財の市場を分析した。その結果、デジタル特異化の4つのベクトル、テクノロジーが特異化を媒介する多様な方法、およびこのプロセスに内在する複数の緊張関係が明らかになった。主要な貢献として、特異化を本質的に不安定な社会技術的プロセスとして理論化し、デジタル所有、デジタル市場における価値創造、および現代の「特異性市場」に関する新たな知見を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag013" target="_blank" class="title">Made With AI: Consumer Engagement with Social Media Containing AI Disclosures</a></div>
+        <span class="date">2026-05-05</span>
+      </div>
+      <div class="authors">Stephan Carney, Ignacio Riveros, Stephanie Tully</div>
+      <div class="kwrow"><span class="kwbadge">AI</span><span class="kwbadge">artificial intelligence</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how AI-generated content (AIGC) disclosures on social media affect consumer engagement. Using analysis of TikTok engagement data following their AIGC disclosure policy introduction and eight preregistered experiments, the authors find that AIGC disclosures reduce consumer engagement. Crucially, this reduction is not driven by concerns about content quality or AI aversion, but rather by diminished parasocial connection—the one-sided emotional bonds between consumers and creators—mediated by perceived creator effort. The study contributes a novel mechanism explaining consumer responses to AI disclosures and offers practical implications for platform policies and disclosure design, suggesting that signals of greater creator effort can mitigate engagement losses.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、ソーシャルメディアにおけるAI生成コンテンツ（AIGC）開示が消費者エンゲージメントにどのような影響を与えるかを検討した。TikTokのAIGC開示ポリシー導入後のエンゲージメントデータ分析と8つの事前登録実験により、AIGC開示がエンゲージメントを低下させることが明らかになった。この低下はコンテンツの品質への懸念やAI嫌悪ではなく、クリエイターの努力認知の低下を介したパラソーシャルコネクション（消費者とクリエイター間の一方向的な感情的絆）の減少によって生じることを発見した。本研究はAI開示への消費者反応を説明する新たなメカニズムを提示し、クリエイターの努力を示す開示設計がエンゲージメント低下を緩和できるというプラットフォームポリシーへの実践的示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag012" target="_blank" class="title">Inferences About Others’ Consumption Motives Influence What Consumers Expect from Similar Experiences</a></div>
+        <span class="date">2026-05-01</span>
+      </div>
+      <div class="authors">Matthew J. Hall, Daniel M. Zane</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how consumers' inferences about others' intrinsic or extrinsic motives for sharing experiences on social media influence viewers' expectations about those experiences. Through six studies, the authors demonstrate that when viewers infer a sharer had particular motives (intrinsic or extrinsic), they believe the experience is better suited to satisfy that same type of motive, which subsequently affects their own behavior during similar experiences. However, this effect disappears when viewers are highly familiar with the shared experience. The research contributes to understanding social influence on social media by showing that inferred motives not only affect social evaluations of sharers but also shape beliefs about the experiences themselves.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、ソーシャルメディア上で他者が共有した体験を見た消費者が、その投稿者の内発的・外発的動機を推論し、それが体験そのものへの期待にどう影響するかを検討している。6つの研究を通じて、視聴者が投稿者の動機（内発的または外発的）を推論すると、その体験が同種の動機を満たすのに適していると信じるようになり、自身が類似体験に従事する際の行動にも影響することを示した。ただし、視聴者がその体験に精通している場合、この効果は消失する。本研究は、推論された動機が投稿者への社会的評価だけでなく体験そのものへの信念も形成することを明らかにし、ソーシャルメディアにおける社会的影響の新たな現象を提示した点で貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag011" target="_blank" class="title">Brief Commentary: Theory Testing for Differences in Process – Hypothesizing, Testing, and Reporting Comparisons Between Indirect Effects</a></div>
+        <span class="date">2026-04-16</span>
+      </div>
+      <div class="authors">Romain Cadario, Dan Schley, Gavan J. Fitzsimons</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This paper addresses how consumer researchers should properly map theoretical hypotheses about process differences onto statistical tests when comparing indirect effects across contexts (moderated mediation) or mediators (parallel mediation). The authors demonstrate that different theoretical claims require different statistical approaches—for instance, claiming one conditional indirect effect is greater than another requires testing the index of moderated mediation, not simply reporting significance patterns. They provide two comprehensive tutorials covering theory-to-statistics mapping, appropriate model selection, and transparent reporting practices. The contribution lies in offering concrete guidance including pre-registration templates, data analysis procedures, and manuscript reporting examples to improve methodological rigor in process-focused consumer research.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論文は、消費者研究において間接効果を文脈間（調整された媒介）や媒介変数間（並列媒介）で比較する際に、プロセスの違いに関する理論的仮説を統計的検定に適切に対応させる方法を論じている。著者らは、異なる理論的主張には異なる統計的アプローチが必要であることを示し、例えば条件付き間接効果の大小を主張する場合は調整された媒介の指標（index of moderated mediation）の検定が必要であり、単に有意性パターンを報告するだけでは不十分であると説明している。理論と統計の対応付け、適切なモデル選択、透明性のある報告方法について2つのチュートリアルを提供している。事前登録テンプレート、データ分析手順、論文報告例などの具体的なガイダンスを提供し、プロセス研究における方法論的厳密性の向上に貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag010" target="_blank" class="title">A Framework for Understanding Consumer Response to the Depiction of Historically Underrepresented Identities in Marketing Communications</a></div>
+        <span class="date">2026-04-14</span>
+      </div>
+      <div class="authors">Cory Haltman, Jianna Jin, Grant E Donnelly, Rebecca Walker Reczek</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates why consumer responses to historically underrepresented identities (HUIs) in marketing communications vary, ranging from backlash to acceptance. Using moral foundations theory, the authors develop a framework proposing that while liberals respond positively to all HUI depictions due to their emphasis on Fairness, conservatives' responses depend on two dimensions: perceived agency and normativity regarding bodily purity. The findings reveal that conservatives react negatively only to HUIs perceived as high on both dimensions (e.g., obese, transgender, or hijab-wearing models), and this negative response is attenuated when the identity is low on either dimension or when HUIs appear as a numerical minority in campaigns. This framework contributes to understanding political ideology's role in advertising effectiveness and offers practical guidance for inclusive marketing strategies.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、マーケティング・コミュニケーションにおける歴史的に過小代表されてきたアイデンティティ（HUI）の描写に対する消費者反応が、なぜ反発から受容まで多様に分かれるのかを検討している。道徳基盤理論を用いて、リベラル派は公正性を重視するため全てのHUI描写に肯定的に反応する一方、保守派の反応は「主体性（agency）」と「身体的純潔に関する規範性（normativity）」という2次元の認知に依存するという枠組みを提案している。研究の結果、保守派は両次元が高いと認知されるHUI（肥満モデル、トランスジェンダーモデル、ヒジャブ着用モデル等）にのみ否定的に反応し、いずれかの次元が低い場合や、HUIがキャンペーン内で数的少数派として登場する場合には否定的反応が緩和されることが示された。本研究は、政治的イデオロギーが広告効果に与える影響の理解に貢献し、インクルーシブ・マーケティング戦略への実務的示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag009" target="_blank" class="title">Repair Service Signals: How Brand Repair Services Signal Unused Utility and Increase Product Repair</a></div>
+        <span class="date">2026-04-13</span>
+      </div>
+      <div class="authors">Nathan Allred, Karen Page Winterich</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates why brand repair services, compared to third-party services, are more effective at promoting product repair over replacement. Through two field studies and four lab experiments, the authors demonstrate that brand and brand-certified repair services signal unused utility in malfunctioning products, thereby increasing consumers' likelihood to repair rather than replace. The effect diminishes when consumers have domain expertise, when products hold sentimental value (as repair occurs without brand signals), or when product upgrades are salient (which attenuates the unused utility signal). This work contributes to signaling theory, unused utility literature, and offers practical implications for sustainability efforts and brand management strategies.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、ブランドが提供する修理サービスがサードパーティの修理サービスと比較して、なぜ製品の修理を促進するのかを検討している。2つのフィールド調査と4つの実験室実験を通じて、ブランドおよびブランド認定修理サービスが故障した製品の「未使用効用（unused utility）」をシグナルとして伝達し、消費者の修理意向を高めることを実証した。ただし、消費者が専門知識を持つ場合や製品に感傷的価値がある場合はブランドのシグナルなしでも修理が行われ、アップグレードが顕著な場合は未使用効用への効果が減衰することが示された。本研究はシグナリング理論と未使用効用の文献に貢献し、過剰消費を抑制するサステナビリティ施策やブランド管理への実務的示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag008" target="_blank" class="title">When Goods Were Odds: Do People Prefer Uncertain Goods After Uncertainty Is Resolved?</a></div>
+        <span class="date">2026-04-08</span>
+      </div>
+      <div class="authors">Beidi Hu, Siyuan Yin, Alice Moon</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how people evaluate goods that originated from uncertain prospects (e.g., raffle prizes) after the uncertainty has been resolved. Through seven experiments with over 12,000 participants, the authors demonstrate an 'uncertainty spillover effect' whereby people prefer goods that came from uncertain origins compared to identical goods that were always known. The effect is explained by downward counterfactual thinking—uncertainty makes people perceive outcomes as superior relative to worse alternatives that could have occurred. This research contributes to consumer behavior literature by showing that uncertainty's influence persists beyond its resolution, affecting product evaluations and extending to associated products.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、不確実な状況（例：抽選）から得られた商品が、不確実性が解消された後にどのように評価されるかを検討した。12,000人以上を対象とした7つの実験を通じて、「不確実性スピルオーバー効果」を実証し、不確実な起源を持つ商品は、最初から確定していた同一商品よりも好まれることを明らかにした。この効果は下方反事実思考によって説明され、不確実性により「起こりえたより悪い結果」と比較して現在の結果が優れていると知覚される。本研究は、不確実性の影響がその解消後も持続し、商品評価や関連商品にまで波及することを示し、消費者行動研究に貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag007" target="_blank" class="title">Received! How Acknowledgment Increases a Company’s Sustainability Image and Drives Repeat Customer Participation in Take-Back Programs</a></div>
+        <span class="date">2026-03-24</span>
+      </div>
+      <div class="authors">Yuly Hong, Sara Loughran Dommer, Karen Page Winterich</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates whether company acknowledgment of customer participation in take-back programs can enhance sustainability perceptions and encourage repeat participation. Through seven studies including a field study, the authors demonstrate that simple acknowledgment increases customers' emotional attachment and sense of partnership with the company, leading to higher perceived sustainability and greater likelihood of repeat participation. The effect is stronger for take-back programs than company-beneficial programs, and is attenuated by high self-brand connection and industry greenwashing. This work contributes theoretical insights into customer-company partnerships in sustainability contexts and provides practical guidance for managers implementing take-back programs.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、企業が回収プログラム（テイクバック・プログラム）への顧客参加を承認（アクノレッジメント）することで、サステナビリティイメージの向上と再参加を促進できるかを検証した。フィールド実験を含む7つの研究を通じて、単純な承認が顧客の企業への感情的愛着とパートナーシップ意識を高め、企業のサステナビリティ認知と再参加意向を向上させることを実証した。この効果は企業利益型プログラムよりも回収プログラムで強く、顧客のセルフブランドコネクションが高い場合や業界のグリーンウォッシングが存在する場合には減衰することが示された。本研究はサステナビリティ文脈における顧客・企業パートナーシップに関する理論的貢献と、回収プログラムを展開する企業への実務的示唆を提供する。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag006" target="_blank" class="title">Brief Commentary: A Framework for Detecting AI Agents in Online Research</a></div>
+        <span class="date">2026-03-21</span>
+      </div>
+      <div class="authors">Felipe M. Affonso</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This paper addresses the emerging challenge of detecting AI agents autonomously completing online surveys, which traditional attention checks fail to identify. The author introduces the Cognitive Trap Framework, which exploits architectural constraints of vision-language models to create questions that are difficult for AI but easy for humans. Testing against 1,007 human participants and 526 AI agents showed that cognitive traps detected 97.1% of agents while only flagging 4.1% of humans, compared to just 2.3% detection with traditional methods. The framework's key contribution is its adaptability—since AI model improvements are non-monotonic, new traps can be generated as agent architectures evolve, with validated tools made publicly available for researchers.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本論文は、視覚対応AIエージェントがオンライン調査を自律的に完了できるようになった現状において、従来の注意確認手法では検出が困難であるという課題に取り組んでいる。著者は、視覚言語モデルのアーキテクチャ上の制約を利用し、AIには困難だが人間には容易な質問を設計する「認知トラップフレームワーク」を提案した。1,007名の人間参加者と526体のAIエージェントを対象とした検証では、認知トラップはエージェントの97.1%を検出し（従来手法は2.3%）、人間の誤検出率はわずか4.1%であった。本フレームワークの主要な貢献は、AIモデルの進化が非単調であるため新たなトラップを継続的に生成できる適応性にあり、検証済みのツールが研究者向けに公開されている点にある。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag003" target="_blank" class="title">Limiting Accessibility: How Targeting Consumers with Disabilities Constrains Acceptable Prices for Innovations</a></div>
+        <span class="date">2026-03-18</span>
+      </div>
+      <div class="authors">Musa Essa, Johannes Boegershausen, Gabriele Paolacci</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates how mass-market consumers react to innovations targeting people with disabilities, particularly regarding price acceptability. Through nine main studies and six supplementary studies (twelve preregistered), the authors find that consumers view price premiums as less acceptable when products target people with disabilities compared to other segments, even when cost justifications are provided. The research identifies pity toward people with disabilities as the key psychological driver of this reaction, with variations in pity across different disabilities corresponding to differences in price premium acceptability. This work contributes by revealing a novel form of consumer paternalism that may paradoxically reduce marketplace inclusivity by penalizing companies that develop adaptive products for this underserved segment.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、障害者をターゲットとしたイノベーションに対して一般消費者がどのように反応するか、特に価格受容性の観点から検討している。9つの主要研究と6つの補足研究（12件が事前登録）を通じて、障害者向け製品に対するプレミアム価格は、他のセグメント向け製品と比較して消費者から受け入れられにくく、企業がコスト正当化を行っても この傾向は持続することを明らかにした。この反応の主要な心理的要因として障害者への「哀れみ」を特定し、障害の種類による哀れみの程度の違いが価格プレミアムの受容性の差異と関連していることを示した。本研究は、消費者のパターナリズムという新たな現象を発見し、逆説的にもこの見方が十分なサービスを受けていない障害者セグメント向けの製品開発企業を罰することで、市場の包摂性を低下させる可能性を示唆している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag005" target="_blank" class="title">More Correlations Signal Causation: The Effect of Correlational Scope on Perceived Causality</a></div>
+        <span class="date">2026-03-07</span>
+      </div>
+      <div class="authors">Yue Zhang, Gabriele Paolacci</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This research investigates when consumers perceive statistical correlations as reflecting causal relationships in the context of big data and media reporting. Through eight preregistered studies, the authors demonstrate that a correlation (e.g., between tea drinking and bone health) is perceived as more causal when the plausible cause correlates with additional outcomes (correlational scope effect). This effect is attenuated when additional outcomes are weakly related to the focal outcome, mitigated under cause-last framing, and influences product choices. The findings contribute to understanding causal judgment by proposing category-based induction as an underlying mechanism and have implications for consumer well-being.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、ビッグデータ時代において消費者がいつ統計的相関を因果関係として知覚するかを検討している。8つの事前登録研究を通じて、ある相関（例：お茶の摂取と骨の健康）において、想定される原因が追加的な結果（例：心臓の状態）とも相関している場合、その相関がより因果的であると知覚されることを示した（相関スコープ効果）。この効果は、追加結果が主要結果と弱い関連性を持つ場合に減衰し、原因を後に提示するフレーミングで緩和され、製品選択にも影響を与える。カテゴリーベースの帰納がこの効果に寄与するメカニズムとして提案され、因果判断の理解と消費者の福祉に重要な示唆を提供している。</p></div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag004" target="_blank" class="title">From Adaptation to Disruption: Structured Ambivalence as a Catalyst for Consumer-Led Institutional Work</a></div>
+        <span class="date">2026-03-03</span>
+      </div>
+      <div class="authors">Anna E. Hartman, Eileen Fischer</div>
+      
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study examines how consumers respond to ambivalence arising from conflicting institutional norms in the U.S. donor conception market. Using interviews, archival narratives, and case profiles, the authors develop a typology distinguishing between adaptation work (reconciling contradictions within existing arrangements) and disruption work (transforming institutional arrangements), each with individual and collaborative variants. The key finding reveals that adaptive work paradoxically reinforces the market system producing ambivalence, while structured ambivalence serves as a micro-level emotional catalyst driving the full spectrum of consumer-led institutional work. This research contributes to institutional theory by specifying the emotional and reflexive underpinnings of how consumers engage in institutional continuity and change within markets.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、米国の提供型生殖医療市場において、制度的規範の矛盾から生じるアンビバレンス（両価性）に消費者がどのように対応するかを検討している。インタビュー、アーカイブ資料、事例分析を用いて、既存の制度的取り決め内で矛盾を調整する「適応ワーク」と制度的取り決めを変革する「破壊ワーク」を区別する類型論を構築し、それぞれに個人的・協働的な形態があることを示した。主要な発見として、適応ワークはアンビバレンスを生み出す市場システムを逆説的に強化すること、また構造化されたアンビバレンスが消費者主導の制度的ワーク全般を駆動するミクロレベルの感情的触媒であることが明らかになった。本研究は、消費者が市場における制度の継続と変化にどのように関与するかの感情的・省察的基盤を特定し、制度論のミクロ的基礎に貢献している。</p></div>
+      </div>
+    </div>
+    <div class="card kw-match">
+      <div class="card-head">
+        <div class="title-row"><a href="https://doi.org/10.1093/jcr/ucag002" target="_blank" class="title">The Effect of Online Cart Composition on Cart Abandonment</a></div>
+        <span class="date">2026-01-30</span>
+      </div>
+      <div class="authors">Liat Hadar, Yael Steinhart, Gil Appel, Yaniv Shani</div>
+      <div class="kwrow"><span class="kwbadge">AI</span></div>
+      <div class="summaries">
+        <div class="block"><span class="tag">EN</span><p>This study investigates how the composition of online shopping carts affects cart abandonment rates. Using two large-scale field datasets and four controlled experiments, the authors demonstrate that carts with a higher proportion of hedonic (vs. utilitarian) products are more likely to be abandoned, an effect mediated by perceived hedonism and consumer guilt. The research contributes to e-commerce literature by identifying cart composition as a key factor in abandonment and offers a practical intervention: recommendation systems can reduce abandonment by suggesting utilitarian items to balance cart composition.</p></div>
+        <div class="block"><span class="tag">JA</span><p>本研究は、オンラインショッピングカートの商品構成がカート放棄率にどのように影響するかを検証した。2つの大規模フィールドデータセットと4つの統制実験を用いて、快楽的（hedonic）商品の比率が高いカートは放棄されやすく、この効果はカートの快楽的知覚と消費者の罪悪感によって媒介されることを実証した。本研究はカート構成が放棄の重要な要因であることを明らかにし、レコメンデーションシステムで実用的商品を提案することでカート放棄を低減できるという実践的介入策を提示した点で貢献している。</p></div>
       </div>
     </div></div></main>
 <script>
