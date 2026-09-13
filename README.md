@@ -44,10 +44,23 @@ journal-tracker/
 │   └── papers.db                   # 論文DB（自動蓄積）
 ├── output/
 │   └── report.html                 # ダッシュボード（自動更新）
+├── cases/                          # マーケ・経営の事例ストック（手動）
+│   ├── README.md                   # 事例の一覧・書き方
+│   └── _TEMPLATE.md                # 新規事例のひな形
 └── .github/
     └── workflows/
         └── tracker.yml             # GitHub Actions設定
 ```
+
+---
+
+## 事例ストック（cases/）
+
+論文の自動収集とは別に、新聞・雑誌などで見つけたマーケティング／経営の事例を
+`cases/` に手動で蓄積している。tracker.py の処理対象外。
+
+- 一覧と書き方 → [cases/README.md](cases/README.md)
+- 新規追加は `cases/_TEMPLATE.md` をコピーして `YYYY-MM-<company>-<topic>.md` で保存
 
 ---
 
