@@ -51,6 +51,15 @@ journal-tracker/
 
 ---
 
+## 関連リポジトリ
+
+マーケティング・経営の事例ストックは、以前この配下の `cases/` に置いていたが、
+2026-09-25 に別リポジトリへ移した（本リポジトリは毎日ボットが自動コミットするため）。
+
+→ https://github.com/tcuxtzkke/marketing-cases
+
+---
+
 ## GitHub Secrets（Settings → Secrets and variables → Actions）
 
 | Secret名 | 内容 |
